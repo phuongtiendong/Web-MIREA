@@ -1,0 +1,184 @@
+.icon-footer {
+  color: #fff;
+  font-size: 20px;
+}
+
+.text-footer p {
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+  color: rgba(255, 255, 255, 0.5);
+  font-weight: 700;
+}
+
+.navbar:before {
+  background-color: #ffffffb0;
+  backdrop-filter: blur(10px);
+}
+
+.covid-banner {
+  position: fixed;
+  height: 35px;
+  width: 100%;
+  background: rgb(64, 0, 0);
+  background: linear-gradient(
+      45deg,
+      rgba(64, 0, 0, 0.8) 0%,
+      rgba(97, 0, 0, 0.8) 50%,
+      rgba(64, 0, 0, 0.8) 100%
+    ),
+    url("images/virus.jpg");
+  background-size: 400px;
+  top: 0px;
+  z-index: 100;
+  text-align: center;
+}
+
+.covid-banner p {
+  color: #fff;
+  line-height: 2.5;
+  font-size: 14px;
+  font-family: "Rajdhani", sans-serif;
+}
+
+.covid-banner a {
+  color: #fff;
+  line-height: 2.5;
+  font-size: 14px;
+  font-family: "Rajdhani", sans-serif;
+}
+
+.icon-scroll,
+.icon-scroll:before {
+  position: absolute;
+  left: 50%;
+}
+.icon-scroll {
+  width: 32px;
+  height: 50px;
+  margin-left: -16px;
+  bottom: 10px;
+  margin-top: -35px;
+  border: 2px solid #fff;
+  border-radius: 25px;
+}
+
+.icon-scroll:before {
+  content: "";
+  width: 2px;
+  height: 10px;
+  background: #fff;
+  margin-left: -1px;
+  top: 8px;
+  border-radius: 4px;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+  animation-name: scroll;
+}
+@keyframes scroll {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(26px);
+  }
+}
+
+.heading-content {
+  display: inline-flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  width: 100%;
+  height: 80px;
+  background: url("images/tech.jpg");
+  background-size: cover;
+  margin-bottom: 40px;
+  margin-top: 100px;
+}
+
+.heading-content .title-content p {
+  line-height: 0.75;
+  margin: 30px;
+  font-size: 26px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.heading-content .btn-readmore {
+  margin: 20px 20px;
+}
+
+.copyright {
+  color: #fff;
+  text-align: center;
+  font-weight: 300;
+}
+
+hr.solid {
+  border-top: 1px solid #fff;
+  margin-top: 5rem;
+}
+
+hr.solid-dark {
+  border-top: 1px solid #f5ba4b;
+}
+
+.fix-image {
+  max-height: 200px;
+  object-fit: cover;
+}
+
+.avatar-ultra {
+  width: 100%;
+  height: auto;
+}
+
+.lang-action {
+  background-color: #f5ba4b;
+  font-weight: 600;
+  margin: 0.15rem;
+  padding: 0.15rem 0.35rem;
+}
+
+.lang-dis {
+  background-color: #ffffff00;
+  color: rgb(99, 99, 99) !important;
+  padding: 0.15rem 0.35rem;
+}
+.lang-dis:hover {
+  font-weight: 600;
+  background-color: #ffdfa4;
+}
+
+.card-institute {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 200px;
+  margin: 10px 0px;
+}
+
+.card-institute-image img {
+  width: 100px;
+  margin-bottom: 10px;
+  transition: transform 0.5s ease;
+}
+
+.card-institute:hover img {
+  transform: scale(1.1);
+}
+.text-institute {
+  color: #fff;
+  font-weight: 600;
+}
+
+.text-institute:hover {
+  color: #fff1d6;
+}
+
+input[type="file"] {
+  display: none;
+}

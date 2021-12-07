@@ -1,0 +1,742 @@
+<!doctype html>
+<html lang="en">
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<!-- Favicons -->
+<link rel="apple-touch-icon" sizes="180x180" href="assets/ico/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="images/logo/mirea.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="images/logo/mirea.ico">
+<link rel="manifest" href="assets/ico/site.webmanifest">
+<link rel="mask-icon" href="assets/ico/safari-pinned-tab.svg" color="#5bbad5">
+<link rel="shortcut icon" href="images/logo/mirea.ico">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="msapplication-config" content="assets/ico/browserconfig.xml">
+<meta name="theme-color" content="#ffffff">
+
+<!-- Plugins CSS -->
+<link rel="stylesheet" href="assets/libs/flickity/dist/flickity.min.css">
+<link rel="stylesheet" href="assets/libs/flickity-fade/flickity-fade.css">
+<link rel="stylesheet" href="assets/libs/fullpage.js/dist/fullpage.min.css">
+<link rel="stylesheet" href="assets/libs/highlightjs/styles/codepen-embed.css">
+<link rel="stylesheet" href="assets/libs/%40fortawesome/fontawesome-free/css/all.min.css">
+<link rel="stylesheet" href="assets/libs/incline-icons/style.min.css">
+
+<!-- Link Font -->
+
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Marcellus+SC&family=Rajdhani:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;1,100;1,500;1,600&family=Rajdhani:wght@500&display=swap" rel="stylesheet">
+
+<!-- Theme CSS -->
+<link rel="stylesheet" href="assets/css/theme.css">
+<link rel="stylesheet" href="assets/css/style.css">
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+<script src="assets/libs/jquery/dist/jquery.min.js"></script>
+<title>MIREA/Migration regulations</title>
+</head>
+<body>
+<!-- BANNER
+=================================================-->
+<div class="covid-banner">
+<p >[CORONAVIRUS] <a href="https://www.mirea.ru/">News and Latest Update: all important information for students</a> <i class="fas fa-exclamation-circle"></i> <a href="#modal-virus" data-toggle="modal">Preventive measures</a></p>
+</div>
+
+<!-- MODALS Preventive measures
+================================================== -->
+<div class="modal fade" id="modal-virus" tabindex="-1" role="dialog" aria-labelledby="modal-video-header" aria-hidden="true">
+<div class="modal-dialog modal-dialog-centered modal-dialog-video modal-lg" role="document">
+    <div class="modal-content">
+
+        <!-- Header -->
+        <div class="modal-header">
+
+            <!-- Title -->
+            <h4 class="modal-title text-white" id="modal-video-header">
+                Coronavirus preventive measures
+            </h4>
+
+            <!-- Close -->
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+
+        </div>
+        <div class="modal-body">
+
+            <img src="images/background/poster.jpg" style="width: 100%;" alt="">
+
+        </div>
+    </div> <!-- / .modal-content -->
+</div> <!-- / .modal-dialog -->
+</div> <!-- / .modal -->
+
+
+
+<!-- MODALS Search
+================================================== -->
+<div class="modal fade" id="modal-search" tabindex="-1" role="dialog" aria-labelledby="modal-video-header" aria-hidden="true">
+<div class="modal-dialog modal-dialog-centered modal-dialog-video modal-lg" role="document">
+    <div class="modal-content">
+
+        <!-- Header -->
+        <div class="modal-header">
+
+            <!-- Title -->
+            <h4 class="modal-title text-white" id="modal-video-header">
+                <i class="fas fa-search"></i>  SEARCH
+            </h4>
+
+            <!-- Close -->
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+
+        </div>
+        <div class="modal-body">
+
+            <input type="text" name="search" class="form-control" id="search" placeholder="Type your keyword ...">
+            <div class="container section pb-0" id="output-search">
+        </div>
+
+    </div>
+</div> <!-- / .modal-content -->
+</div> <!-- / .modal-dialog -->
+</div> <!-- / .modal -->
+
+
+
+<!-- MODALS SIGNIN
+================================================== -->
+<div class="modal fade" id="modal-signin" tabindex="-1" role="dialog" aria-labelledby="modal-video-header" aria-hidden="true">
+<div class="modal-dialog modal-dialog-centered modal-dialog-video modal-lg" role="document">
+    <div class="modal-content">
+
+        <!-- Header -->
+        <div class="modal-header">
+
+            <!-- Title -->
+            <h4 class="modal-title text-white" id="modal-video-header">
+                SIGN IN
+            </h4>
+
+            <!-- Close -->
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+
+        </div>
+        <div class="modal-body">
+
+            <!-- Form -->
+            <form class="form-styled bg-white" method="post" role="form">
+
+                <!-- Heading -->
+                <h4 class="text-center mb-4">
+                    Welcome 
+                </h4>
+
+                <!-- Subheading -->
+                <p class="text-center text-muted mb-5">
+                    Please fill out the form below to sign in to your account.
+                </p>
+
+                <!-- Email -->
+                <div class="form-group">
+
+                    <!-- Email -->
+                    <label>Email address</label>
+                    <div class="input-group">
+                        <input type="email" class="form-control order-1" name="email" id="email">
+                        <div class="input-group-append order-0">
+                            <div class="input-group-text">
+                                <svg class="input-group-icon icon-offset icon icon-envelope" viewBox="0 0 106 106" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                    <path transform="translate(3 3)" d="
+                      M0 30 V 10 H 100 V 90 H 0 V 30 L 50 60 L 100 30">
+                                    </path>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- Password -->
+                <div class="form-group">
+
+                    <!-- Name -->
+                    <label>Password</label>
+                    <div class="input-group">
+                        <input type="password" class="form-control order-1" name="password" id="password">
+                        <div class="input-group-append order-0">
+                            <div class="input-group-text">
+                                <svg class="input-group-icon icon-offset icon icon-lock" viewBox="0 0 106 106" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                    <path transform="translate(3 3)" d="
+                      M25 50 V 20 A 25 25 0 0 1 50 0 A 25 25 0 0 1 75 20 V 50 H 90 V 100 H 10 V 50 H 75 M50 85 A 5 5 0 0 1 45 80 V 70 A 5 5 0 0 1 50 65 A 5 5 0 0 1 55 70 V 80 A 5 5 0 0 1 50 85">
+                                    </path>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- Footer -->
+                <div class="form-row align-items-center">
+                    <div class="col-md-auto">
+
+                        <!-- Checkbox -->
+                        <div class="custom-control custom-checkbox mb-3 mb-md-0">
+                            <input type="checkbox" class="custom-control-input" id="sign-in-checkbox">
+                            <label class="custom-control-label" for="sign-in-checkbox">
+                                Remember me
+                            </label>
+                        </div>
+
+                    </div>
+                    <div class="col-md">
+
+                        <!-- Button -->
+                        <div class="text-center text-md-right">
+                            <button type="submit" class="btn btn-primary btn-sm" name="submit" id="submit">
+                                Sign in now
+                            </button>
+                        </div>
+
+                    </div>
+                </div> <!-- / .form-row -->
+            </form>
+        </div>
+    </div> <!-- / .modal-content -->
+</div> <!-- / .modal-dialog -->
+</div> <!-- / .modal -->
+
+
+<!-- NAVBAR
+================================================= -->
+<nav class="navbar navbar-expand-xl navbar-light fixed-top">
+  <div class="container">
+  
+    <!-- Brand -->
+    <a class="navbar-brand" id="logo-nav"  href="index.html">
+      <img src="images/logo/logo.png" id="nav-logo" style="width: 50px;" alt="logo">
+    </a>
+  
+    <!-- Toggler -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <!-- Collapse -->
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+  
+  
+      <!-- Links -->
+      <ul class="navbar-nav ml-auto">
+  
+  
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarWelcome" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            About University
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarWelcome">
+    
+              <a class="dropdown-item " href="about.html">
+              University today
+              </a>
+            
+             
+              <a class="dropdown-item " href="admin.html">
+              Administration
+              </a>
+            
+             
+            
+              <a class="dropdown-item " href="history.html">
+              History
+              </a>
+            
+              <a class="dropdown-item " href="Logo.html">
+              University Logo
+              </a>
+            
+          </div>
+        </li>
+    
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarWelcome" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Academics
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarWelcome">
+    
+              <a class="dropdown-item " href="academics.html">
+              Education System
+              </a>
+            
+            
+              <a class="dropdown-item " href="academics-2.html">
+              Additional Education Programs
+              </a>
+            
+          </div>
+        </li>
+    
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarWelcome" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Admission
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarWelcome">
+    
+              <a class="dropdown-item " href="admisss.html">
+                  Admission Procedure
+                  </a>
+                
+                  <a class="dropdown-item " href="admis-1.html">
+                  Pre-university Training Department
+                  </a>
+                
+                  <a class="dropdown-item " href="admis-2.html">
+                  Migration Regulations
+                  </a>
+          </div>
+        </li>
+    
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarWelcome" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            International
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarWelcome">
+    
+              <a class="dropdown-item " href="inter.html">
+              International Cooperation
+              </a>
+              <a class="dropdown-item " href="inter-1.html">
+              International Relations Department
+              </a>
+            
+          </div>
+        </li>
+                <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarWelcome" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          MORE
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarWelcome">
+              <a class="dropdown-item " href="https://english.mirea.ru/contacts/">
+                CONTACT
+              </a>
+              <a class="dropdown-item " href="https://www.mirea.ru/news/">
+                NEWS
+              </a>
+          </div>
+        </li>
+  
+        <li class="nav-item">
+                <a href="#modal-search" data-toggle="modal" class="btn btn-outline-primary btn-sm nav-link" style="width: 100%; color: #f5ba4b">
+                    <i class="fas fa-search"></i> SEARCH
+                </a>
+        </li>
+  
+  
+  
+        <li class="nav-item">
+          <a href="#modal-signin" data-toggle="modal" class="nav-link btn btn-sm btn-primary" style="color: #fff;">
+            SIGN IN <i class="fas fa-sign-in-alt"></i>
+          </a>
+        </li>
+          </ul>
+  
+    </div> <!-- / .navbar-collapse -->
+  
+  </div> <!-- / .container -->
+  </nav>
+
+<!-- BREADCRUMB
+================================================== -->
+<nav class="breadcrumb">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col">
+
+          <!-- Heading -->
+          <h5 class="breadcrumb-heading">
+          Administration            </h5>
+
+        </div>
+        <div class="col-auto">
+
+          <!-- Breadcrumb -->
+          <span class="breadcrumb-item">
+            <a href="index.html">Home</a>
+          </span>
+          <span class="breadcrumb-item">
+            <a href="#">About University</a>
+          </span>
+          <span class="breadcrumb-item active">
+            Migration Regulations           </span>
+
+        </div>
+      </div> <!-- / .row -->
+    </div> <!-- / .container -->
+  </nav>
+
+  <section class="section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-2">
+
+          <!-- Title -->
+          <h6 class="title">
+Admission            </h6>
+
+          <!-- List -->
+          <ul class="sidenav list-unstyled mb-5 mb-md-0">
+
+                 
+              
+                  <li class="text-xs text-uppercase mb-2">
+                      <a href="admisss.html">Admission Procedure</a>
+                  </li>
+
+                  <li class="text-xs text-uppercase mb-2">
+                    <a href="admis-1.html">Pre-university Training Department</a>
+                </li>
+
+                <li class="text-xs text-uppercase mb-2">
+                    <a href="admis-2.html">Migration regulations</a>
+                </li>
+              
+
+        </div>
+        <div class="col-md-10">
+
+
+            <!-- CONTENT -->
+            <div class="pb-5 mb-5 border-bottom">
+
+
+            <h3 class="mb-4">
+            Migration Regulations
+            </h3>
+
+            <div>
+            <div>
+<h2>Regarding invitations and migration registration, please contact the International Relations Department:</h2>
+
+<p>tel.: +7&nbsp;499 215-65-65&nbsp;ext.&nbsp;1082, 1123<br>
+e-mail:&nbsp;<a href="mailto:burceva@mirea.ru">burceva@mirea.ru</a></p>
+
+<p><strong>Office hours:</strong>&nbsp;Monday — Thursday (9:00&nbsp;AM — 6:00&nbsp;PM), Friday (9:00&nbsp;AM — 5:00&nbsp;PM)</p>
+
+<p>&nbsp;</p>
+
+<p><strong>Procedure of migration registration and residence regulations for foreign citizens arriving for training at RTU MIREA</strong></p>
+<a href="https://www.mirea.ru/upload/medialibrary/2e1/Pravila-migratsionnogo-ucheta.pdf" target="_blank">Правила миграционного учета</a><br>
+<a href="https://www.mirea.ru/upload/medialibrary/f44/Migration-registration-rules.pdf" target="_blank">Migration registration rules</a><br>
+<a href="https://www.mirea.ru/upload/medialibrary/2a9/Normas-del-registro-migratorio.pdf" target="_blank">Normas del registro migratorio</a><br>
+<a href="https://www.mirea.ru/upload/medialibrary/431/R_gles-de-migration.pdf" target="_blank">Règles de migration</a>
+
+<p><strong>1. Basic rules of stay in the territory of the Russian Federation for a foreign citizen studying at RTU MIREA</strong></p>
+
+<p>1.1. A foreign citizen arriving to the Russian Federation to study at RTU MIREA is obliged to observe the laws of the Russian Federation: the Federal Law of 15/8/1996 No. 114-FZ "Concerning departure from the Russian Federation and entrance to the Russian Federation procedures", the Federal Law of 25/7/2002 No. 115-FZ "Concerning the legal status of foreign citizens in the Russian Federation", the Federal Law of 18/7/2006 No. 109-FZ "Concerning migration registration of foreign citizens and stateless persons in the Russian Federation", the Order of the Government of the Russian Federation of 15/1/2007 No. 9 "Concerning procedure of migration registration of foreign citizens and stateless persons in the Russian Federation".</p>
+
+<p>1.2. According to the migration laws of the Russian Federation, foreign citizens and stateless persons who have arrived in the territory of the Russian Federation shall be required to register at the place of stay in the Ministry of Internal Affairs of Russia on migration issues within 7 working days from the date of entry.</p>
+
+<p>1.2.1. Exceptions shall cover citizens of the Republic of Kazakhstan, the Republic of Armenia, the Kyrgyz Republic, the Republic of Belarus required to be registered within 30 days, and the Republic of Tajikistan – within 15 days from the date of entry.</p>
+
+<p>1.3. When returning to the territory of the Russian Federation after going abroad, or after staying in another city of the Russian Federation for more than 7 days, a foreign citizen shall file the necessary documents to the International Relations Department of RTU MIREA (room A-304) within 1 working day (if it is a day off, the first working day after it) for the renewal of primary migration registration.</p>
+
+<p>1.4. During his/her stay in the territory of the Russian Federation, a foreign citizen shall have with him a coupon tear-off part of the arrival notice (registration) with the mark of the territorial migration authority of the Ministry of Internal Affairs on migration registration, the national passport, visa (for countries with a visa regime) and the migration card (with a mark of the Ministry of Internal Affairs on migration registration for countries with a visa-free regime).</p>
+
+<p>1.4.1. In case of loss (damage) by a foreign citizen of a notice of arrival (registration), the national passport, a migration card, he/she shall apply to the International Relations Department within 1 day from the moment of the loss of documents.</p>
+
+<p>1.5. At least 6 months before the expiration of the national passport, a foreign citizen shall prolong or replace it with a new one and submit it to the International Relations Department to make changes in the personnel file.</p>
+
+<p>1.6. Upon receipt of a temporary residence permit, residence permit or passport of the Russian Federation, a foreign citizen within 3 days shall provide copies of documents to the International Relations Department to make changes in the personnel file.</p>
+
+<p>1.7. When entering the territory of the Russian Federation, foreign citizens shall be required to purchase a voluntary medical insurance policy by contacting the International Relations Department or insurance companies operating in the territory of Moscow and Moscow Region.</p>
+
+<p>1.8. A foreign citizen who has terminated or completed his/ her studies at the RTU MIREA shall leave the territory of the Russian Federation within 3 days from the date of dismissal.</p>
+
+<p>1.9. When a foreign citizen transfers to study at RTU MIREA from another educational institution or is enrolled after graduating from the preparatory department of another institution to RTU MIREA, the departure from the Russian Federation shall not be required. Documents shall be made out according to the general rules.</p>
+
+<p><strong>2. Migration registration of foreign citizens</strong></p>
+
+<p>2.1. According to the Federal Law of 27/6/2018 № 163-FZ "On Amending the Federal Law "On migration registration of foreign citizens and stateless persons in the Russian Federation" migration registration is carried out at the actual residential address of foreign citizens.</p>
+
+<p>2.2. Migration registration of foreign citizens studying on a contractual basis shall cover the period of tuition payment; of foreign citizens who have entered the budget form of education - one academic year.</p>
+
+<p>2.3. Foreign citizens who arrived to study at RTU MIREA and received accommodation in the dormitory of RTU MIREA are required to file to the International Relations Department, within 1 working day, the following documents to receive a notification of arrival and migration registration (registration):</p>
+
+<p>- passport;</p>
+
+<p>- visa (for countries with a visa regime);</p>
+
+<p>- the original of migration card with the Russian Federation border crossing mark and indication of the purpose of arrival "study".</p>
+
+<p>2.4. For the extension of registration it is necessary to provide the documents specified in sub-paragraph 2.3. to the International Relations Department in 30 days prior to the registration expiration.</p>
+
+<p>2.5. Foreign citizens who do not reside in the dormitories of RTU MIREA shall independently register their migration records at the actual residence address and submit to the International Relations Department the documents listed below:</p>
+
+<p>- copy of the passport;</p>
+
+<p>- copy of the migration card;</p>
+
+<p>- copy of the migration registration notice.</p>
+
+<p><strong>3. Registration and prolongation of a multiple entry visa</strong></p>
+
+<p>3.1. When entering the territory of the Russian Federation with a primary (single) visa, the International Relations Department issues a multiple entry visa for the term of tuition (for foreign citizens studying on a contractual basis), but not exceeding one academic year (budget form).</p>
+
+<p>3.2. Foreign citizens from the countries with visa regime arriving for the admission to RTU MIREA are obliged to provide the following documents to the International Relations Department for migration registration and multiple-entry visa within one working day (if it is a day off, the first working day after it):</p>
+
+<p>- passport;</p>
+
+<p>- visa;</p>
+
+<p>- the original of migration card with the Russian Federation border crossing mark and indication of the purpose of arrival "study".</p>
+
+<p>- two photos 3х4 cm in&nbsp;size;</p>
+
+<p>- paid receipt of the state tax (1,600 RUB).</p>
+
+<p>3.3. To extend a multi-entry visa term it is necessary to provide the documents specified in sub-paragraph 3.2. to the International Relations Department 45 days prior to the visa expiration.</p>
+</div>
+
+            </div>
+        
+            </div>
+
+
+
+          </div>
+  </section>
+  
+
+  <!-- JAVASCRIPT
+    ================================================== -->
+    <!-- Global JS -->
+    <script src="assets/libs/jquery/dist/jquery.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCnKt8_N4-FKOnhI_pSaDL7g_g-XI1-R9E"></script>
+
+    <!-- Plugins JS -->
+    <script src="assets/libs/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/libs/flickity/dist/flickity.pkgd.min.js"></script>
+    <script src="assets/libs/flickity-fade/flickity-fade.js"></script>
+    <script src="assets/libs/jquery-parallax.js/parallax.min.js"></script>
+    <script src="assets/libs/waypoints/lib/jquery.waypoints.min.js"></script>
+    <script src="assets/libs/waypoints/lib/shortcuts/inview.min.js"></script>
+    <script src="assets/libs/fullpage.js/vendors/scrolloverflow.min.js"></script>
+    <script src="assets/libs/fullpage.js/dist/fullpage.min.js"></script>
+    <script src="assets/libs/highlightjs/highlight.pack.min.js"></script>
+    <script src="assets/vendors/ckeditor/ckeditor.js"></script>
+
+
+    <!-- Theme JS -->
+    <script src="assets/js/theme.min.js"></script>
+    <script src="assets/js/main.js"></script>
+
+ <!-- FOOTER
+     ================================================== -->
+     <footer class="section bg-dark" style="background-image: linear-gradient(90deg, rgba(2,0,36,0.45) 0%, rgba(9,9,121,0.45) 41%, rgba(0,212,255,0.45) 100%),
+     url(images/background/footer.jpg); background-size: cover;">
+ 
+       <!-- Triangles -->
+       <div class="bg-triangle bg-triangle-light bg-triangle-bottom bg-triangle-left"></div>
+       <div class="bg-triangle bg-triangle-light bg-triangle-bottom bg-triangle-right"></div>
+ 
+       <!--Content -->
+       <div class="container">
+           <div class="row row-cols-4 align-self-center">
+             <div class="col-md">
+ 
+                 <!-- Brand -->
+                 <p>
+                   <a href="#" class="footer-brand text-white">
+                     <img src="images/logo/logo.png" style="width: 70%;" alt="logo">
+                   </a>
+                 </p>
+                 <p>
+                  <!-- Social links -->
+                 </p><ul class="list-inline list-unstyled text-md-left">
+                   <li class="list-inline-item">
+                     <a class="icon-footer" href="https://vk.com/mirea_official">
+                       <i class="fab fa-vk"></i>
+                     </a>
+                   </li>
+                   <li class="list-inline-item ml-2">
+                     <a class="icon-footer" href="https://www.facebook.com/mireaofficial">
+                       <i class="fab fa-facebook"></i>
+                     </a>
+                   </li>
+                   <li class="list-inline-item ml-2">
+                     <a class="icon-footer" href="http://telegram.me/priem_mirea">
+                       <i class="fab fa-telegram"></i>
+                     </a>
+                   </li>
+                   <li class="list-inline-item ml-2">
+                     <a class="icon-footer" href="https://www.youtube.com/channel/UClVZx_AWcLq8cXViG9NSXAA">
+                       <i class="fab fa-youtube"></i>
+                     </a>
+                   </li>
+                   <li class="list-inline-item ml-2">
+                     <a class="icon-footer" href="https://www.instagram.com/rtu_university_official/?hl=ru">
+                       <i class="fab fa-instagram"></i>
+                     </a>
+                   </li>
+     
+                   <li class="list-inline-item ml-2">
+                     <a class="icon-footer" href="https://twitter.com/mirea_ru">
+                       <i class="fab fa-twitter"></i>
+                     </a>
+                   </li>
+                 </ul>
+     
+                 <p></p>
+                 <p class="text-white">
+                     78 Vernadsky Avenue, Moscow 119454<br>
+                     +7 (499) 215-65-65<br>
+                     rector@mirea.ru
+                 </p>
+     
+     
+               </div>
+ 
+               <div class="col-md">
+                 <!-- Links -->
+                 <ul class="list-unstyled list-inline text-md-left text-footer">
+                   <p>
+                     About University
+                   </p>
+     
+                   <li class="today">
+                     <a href="about.html" class="text-white">
+                     University today
+                     </a>
+                   </li>
+ 
+                 
+                   <li class="admin">
+                     <a href="admin.html" class="text-white">
+                     Administration
+                     </a>
+                   </li>
+                 
+                   <li class="History">
+                     <a href="history.html" class="text-white">
+                     History
+                     </a>
+                 </li>
+                 
+                   <li class="university-logo">
+                     <a href="Logo.html" class="text-white">
+                     University Logo
+                     </a>
+                   </li>
+                             </ul>
+               </div>
+ 
+               <div class="col-md">
+ 
+ 
+                 <!-- Links -->
+                 <ul class="list-unstyled list-inline text-md-left text-footer">
+                   <p>
+                     Academics
+                   </p>
+     
+     
+                   <li class="">
+                     <a href="academics.html" class="text-white">
+                     Education System
+                     </a>
+                   </li>
+                 
+                 
+                   <li class="">
+                     <a href="academics-2.html" class="text-white">
+                     Additional Education Programs
+                     </a>
+                   </li>
+                           </ul>
+     
+               <!-- Links -->
+               <ul class="list-unstyled list-inline text-md-left text-footer">
+                   <p>
+                     Admission
+                   </p>
+     
+     
+                   <li class="">
+                     <a href="admisss.html" class="text-white">
+                      Admission Procedure
+                     </a>
+                   </li>
+
+                   <li class="">
+                    <a href="admis-1.html" class="text-white">
+                      Pre-university Training Department
+                    </a>
+                  </li>
+
+                  <li class="">
+                    <a href="admis-2.html" class="text-white">
+                        Migration regulations
+                    </a>
+                  </li>
+                 </ul>
+     
+               </div>
+ 
+               <div class="col-md">
+ 
+                 <!-- Links -->
+                 <ul class="list-unstyled list-inline text-md-left text-footer">
+                   <p>
+                     International
+                   </p>
+     
+     
+                   <li class="">
+                     <a href="inter.html" class="text-white">
+                     International Cooperation
+                     </a>
+                   </li>
+      
+                   <li class="">
+                     <a href="inter-1.html" class="text-white">
+                     International Relations Department
+                     </a>
+                   </li>
+                           </ul>
+               <ul class="list-unstyled list-inline text-md-left text-footer">
+                   <p>
+                     More
+                   </p>
+                   <li class="">
+                     <a href="https://english.mirea.ru/contacts/" class="text-white">
+                     Contact
+                     </a>
+                   </li>
+                   <li class="">
+                     <a href="https://www.mirea.ru/news/" class="text-white">
+                       News
+                     </a>
+                   </li>
+               </ul>
+     
+               </div>
+ 
+ 
+           </div>
+           <hr class="solid">
+           <p class="copyright">© 2021 MIREA - Russian Technological University | Create by <strong>VIETNAMESE STUDENT</strong> </p>
+       </div> <!-- / .container -->
+   </footer>
+ 
+</body>
+</html>

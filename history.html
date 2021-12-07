@@ -1,0 +1,796 @@
+<!doctype html>
+<html lang="en">
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/ico/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/logo/mirea.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/logo/mirea.ico">
+    <link rel="manifest" href="assets/ico/site.webmanifest">
+    <link rel="mask-icon" href="assets/ico/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="images/logo/mirea.ico">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="msapplication-config" content="assets/ico/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+
+    <!-- Plugins CSS -->
+    <link rel="stylesheet" href="assets/libs/flickity/dist/flickity.min.css">
+    <link rel="stylesheet" href="assets/libs/flickity-fade/flickity-fade.css">
+    <link rel="stylesheet" href="assets/libs/fullpage.js/dist/fullpage.min.css">
+    <link rel="stylesheet" href="assets/libs/highlightjs/styles/codepen-embed.css">
+    <link rel="stylesheet" href="assets/libs/%40fortawesome/fontawesome-free/css/all.min.css">
+    <link rel="stylesheet" href="assets/libs/incline-icons/style.min.css">
+
+    <!-- Link Font -->
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Marcellus+SC&family=Rajdhani:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;1,100;1,500;1,600&family=Rajdhani:wght@500&display=swap" rel="stylesheet">
+
+    <!-- Theme CSS -->
+    <link rel="stylesheet" href="assets/css/theme.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script src="assets/libs/jquery/dist/jquery.min.js"></script>
+    <title>MIREA/HISTORY</title>
+</head>
+<body>
+    <!-- BANNER
+   =================================================-->
+  <div class="covid-banner">
+    <p >[CORONAVIRUS] <a href="https://www.mirea.ru/">News and Latest Update: all important information for students</a> <i class="fas fa-exclamation-circle"></i> <a href="#modal-virus" data-toggle="modal">Preventive measures</a></p>
+</div>
+
+<!-- MODALS Preventive measures
+  ================================================== -->
+  <div class="modal fade" id="modal-virus" tabindex="-1" role="dialog" aria-labelledby="modal-video-header" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-video modal-lg" role="document">
+        <div class="modal-content">
+
+            <!-- Header -->
+            <div class="modal-header">
+
+                <!-- Title -->
+                <h4 class="modal-title text-white" id="modal-video-header">
+                    Coronavirus preventive measures
+                </h4>
+
+                <!-- Close -->
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+
+            </div>
+            <div class="modal-body">
+
+                <img src="images/background/poster.jpg" style="width: 100%;" alt="">
+
+            </div>
+        </div> <!-- / .modal-content -->
+    </div> <!-- / .modal-dialog -->
+</div> <!-- / .modal -->
+
+
+
+<!-- MODALS Search
+================================================== -->
+<div class="modal fade" id="modal-search" tabindex="-1" role="dialog" aria-labelledby="modal-video-header" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-video modal-lg" role="document">
+        <div class="modal-content">
+
+            <!-- Header -->
+            <div class="modal-header">
+
+                <!-- Title -->
+                <h4 class="modal-title text-white" id="modal-video-header">
+                    <i class="fas fa-search"></i>  SEARCH
+                </h4>
+
+                <!-- Close -->
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+
+            </div>
+            <div class="modal-body">
+
+                <input type="text" name="search" class="form-control" id="search" placeholder="Type your keyword ...">
+                <div class="container section pb-0" id="output-search">
+            </div>
+
+        </div>
+    </div> <!-- / .modal-content -->
+</div> <!-- / .modal-dialog -->
+</div> <!-- / .modal -->
+
+
+
+<!-- MODALS SIGNIN
+================================================== -->
+<div class="modal fade" id="modal-signin" tabindex="-1" role="dialog" aria-labelledby="modal-video-header" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-video modal-lg" role="document">
+        <div class="modal-content">
+
+            <!-- Header -->
+            <div class="modal-header">
+
+                <!-- Title -->
+                <h4 class="modal-title text-white" id="modal-video-header">
+                    SIGN IN
+                </h4>
+
+                <!-- Close -->
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+
+            </div>
+            <div class="modal-body">
+
+                <!-- Form -->
+                <form class="form-styled bg-white" method="post" role="form">
+
+                    <!-- Heading -->
+                    <h4 class="text-center mb-4">
+                        Welcome 
+                    </h4>
+
+                    <!-- Subheading -->
+                    <p class="text-center text-muted mb-5">
+                        Please fill out the form below to sign in to your account.
+                    </p>
+
+                    <!-- Email -->
+                    <div class="form-group">
+
+                        <!-- Email -->
+                        <label>Email address</label>
+                        <div class="input-group">
+                            <input type="email" class="form-control order-1" name="email" id="email">
+                            <div class="input-group-append order-0">
+                                <div class="input-group-text">
+                                    <svg class="input-group-icon icon-offset icon icon-envelope" viewBox="0 0 106 106" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                        <path transform="translate(3 3)" d="
+                          M0 30 V 10 H 100 V 90 H 0 V 30 L 50 60 L 100 30">
+                                        </path>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <!-- Password -->
+                    <div class="form-group">
+
+                        <!-- Name -->
+                        <label>Password</label>
+                        <div class="input-group">
+                            <input type="password" class="form-control order-1" name="password" id="password">
+                            <div class="input-group-append order-0">
+                                <div class="input-group-text">
+                                    <svg class="input-group-icon icon-offset icon icon-lock" viewBox="0 0 106 106" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                        <path transform="translate(3 3)" d="
+                          M25 50 V 20 A 25 25 0 0 1 50 0 A 25 25 0 0 1 75 20 V 50 H 90 V 100 H 10 V 50 H 75 M50 85 A 5 5 0 0 1 45 80 V 70 A 5 5 0 0 1 50 65 A 5 5 0 0 1 55 70 V 80 A 5 5 0 0 1 50 85">
+                                        </path>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <!-- Footer -->
+                    <div class="form-row align-items-center">
+                        <div class="col-md-auto">
+
+                            <!-- Checkbox -->
+                            <div class="custom-control custom-checkbox mb-3 mb-md-0">
+                                <input type="checkbox" class="custom-control-input" id="sign-in-checkbox">
+                                <label class="custom-control-label" for="sign-in-checkbox">
+                                    Remember me
+                                </label>
+                            </div>
+
+                        </div>
+                        <div class="col-md">
+
+                            <!-- Button -->
+                            <div class="text-center text-md-right">
+                                <button type="submit" class="btn btn-primary btn-sm" name="submit" id="submit">
+                                    Sign in now
+                                </button>
+                            </div>
+
+                        </div>
+                    </div> <!-- / .form-row -->
+                </form>
+            </div>
+        </div> <!-- / .modal-content -->
+    </div> <!-- / .modal-dialog -->
+</div> <!-- / .modal -->
+
+
+<!-- NAVBAR
+================================================= -->
+<nav class="navbar navbar-expand-xl navbar-light fixed-top">
+  <div class="container">
+  
+    <!-- Brand -->
+    <a class="navbar-brand" id="logo-nav" href="index.html">
+      <img src="images/logo/logo.png" id="nav-logo" style="width: 50px;" alt="logo">
+    </a>
+  
+    <!-- Toggler -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <!-- Collapse -->
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+  
+  
+      <!-- Links -->
+      <ul class="navbar-nav ml-auto">
+  
+  
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarWelcome" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            About University
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarWelcome">
+    
+              <a class="dropdown-item " href="about.html">
+              University today
+              </a>
+            
+             
+              <a class="dropdown-item " href="admin.html">
+              Administration
+              </a>
+            
+             
+            
+              <a class="dropdown-item " href="history.html">
+              History
+              </a>
+            
+              <a class="dropdown-item " href="Logo.html">
+              University Logo
+              </a>
+            
+          </div>
+        </li>
+    
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarWelcome" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Academics
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarWelcome">
+    
+              <a class="dropdown-item " href="academics.html">
+              Education System
+              </a>
+            
+            
+              <a class="dropdown-item " href="academics-2.html">
+              Additional Education Programs
+              </a>
+            
+          </div>
+        </li>
+    
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarWelcome" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Admission
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarWelcome">
+    
+              <a class="dropdown-item " href="admisss.html">
+                  Admission Procedure
+                  </a>
+                
+                  <a class="dropdown-item " href="admis-1.html">
+                  Pre-university Training Department
+                  </a>
+                
+                  <a class="dropdown-item " href="admis-2.html">
+                  Migration Regulations
+                  </a>
+          </div>
+        </li>
+    
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarWelcome" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            International
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarWelcome">
+    
+              <a class="dropdown-item " href="inter.html">
+              International Cooperation
+              </a>
+              <a class="dropdown-item " href="inter-1.html">
+              International Relations Department
+              </a>
+            
+          </div>
+        </li>
+                <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarWelcome" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          MORE
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarWelcome">
+              <a class="dropdown-item " href="https://english.mirea.ru/contacts/">
+                CONTACT
+              </a>
+              <a class="dropdown-item " href="https://www.mirea.ru/news/">
+                NEWS
+              </a>
+          </div>
+        </li>
+  
+        <li class="nav-item">
+                <a href="#modal-search" data-toggle="modal" class="btn btn-outline-primary btn-sm nav-link" style="width: 100%; color: #f5ba4b">
+                    <i class="fas fa-search"></i> SEARCH
+                </a>
+        </li>
+  
+  
+  
+        <li class="nav-item">
+          <a href="#modal-signin" data-toggle="modal" class="nav-link btn btn-sm btn-primary" style="color: #fff;">
+            SIGN IN <i class="fas fa-sign-in-alt"></i>
+          </a>
+        </li>
+          </ul>
+  
+    </div> <!-- / .navbar-collapse -->
+  
+  </div> <!-- / .container -->
+  </nav>
+
+<!-- BREADCRUMB
+    ================================================== -->
+    <nav class="breadcrumb">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col">
+  
+              <!-- Heading -->
+              <h5 class="breadcrumb-heading">
+              Administration            </h5>
+  
+            </div>
+            <div class="col-auto">
+  
+              <!-- Breadcrumb -->
+              <span class="breadcrumb-item">
+                <a href="index.html">Home</a>
+              </span>
+              <span class="breadcrumb-item">
+                <a href="#">About University</a>
+              </span>
+              <span class="breadcrumb-item active">
+              History           </span>
+  
+            </div>
+          </div> <!-- / .row -->
+        </div> <!-- / .container -->
+      </nav>
+
+
+      <section class="section">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-2">
+  
+              <!-- Title -->
+              <h6 class="title">
+  About University            </h6>
+  
+              <!-- List -->
+              <ul class="sidenav list-unstyled mb-5 mb-md-0">
+  
+                <li class="text-xs text-uppercase mb-2">
+                    <a href="about.html">University today</a>
+                </li>
+                <li class="text-xs text-uppercase mb-2">
+                    <a href="admin.html">Administration</a>
+                </li>
+            
+            
+                <li class="text-xs text-uppercase mb-2">
+                    <a href="history.html">History</a>
+                </li>
+            
+           
+            
+                <li class="text-xs text-uppercase mb-2">
+                    <a href="Logo.html">University Logo</a>
+                </li>
+                        </ul>
+  
+            </div>
+            <div class="col-md-10">
+  
+  
+              <!-- CONTENT -->
+              <div class="pb-5 mb-5 border-bottom">
+  
+  
+              <h3 class="mb-4">
+              History
+              </h3>
+  
+              <div>
+              <blockquote>
+  <h1><strong>University history</strong></h1>
+  </blockquote>
+  
+  <p><strong>The History of RTU MIREA</strong><br>
+  <br>
+  The History of RTU MIREA&nbsp;cannot be separated either from the bright and optimistic, or from the dramatic pages in the history of our Motherland. The University was established at the time when the country and the Russian people were healing the wounds inflicted by the Second World War. On May 28, 1947, V.M. Molotov, Deputy Chairman of the USSR Council of Ministers, signed the Decree of the Council of Ministers that provided for the transformation of the Correspondence Institute for Advanced Studies of Engineering and Technical Workers of the Ministry of Power Plants into the All-Union Correspondence Power Engineering Institute for training and advanced studies of engineers, which was followed by the transfer thereof to the Ministry of Higher Education of the USSR. For thousands and thousands of ex-soldiers who were back from the front and those who were heroically working in the rear, education by correspondence was at that time the only possible way to acquire a new specialty or improve their qualifications. The Government was also interested in the development of education by correspondence, since millions of people of the working-age perished during the Great Patriotic War and every pair of hands and "bright" minds engaged in the revival of the country’s economy and directly in industrial production were highly valued.<br>
+  <br>
+  The newly established Institute was meant to become a leading university in the system of correspondence education in energy and radio engineering specialties. Moreover, from the very beginning it was believed that the Institute would become the largest among the correspondence educational institutions of the country, which would be enhanced by the presence of its branches in six regions of the USSR. Specialists in power engineering who would be working in the North-Western regions of the RSFSR and the Baltic republics were trained by the Leningrad branch, those to be working in Ukraine and Moldova received their training in the Kiev branch, the Transcaucasian republics specialists studied in Baku, the Central Asian republics trained specialists in the Tashkent branch, the Urals region trained their students in Sverdlovsk, Siberia, and the Far East – in Novosibirsk.<br>
+  <br>
+  Three rooms (with a total area of just 67 sq. m.) on the premises of the Moscow Power Engineering College at Kropotkinskaya (now Prechistenskaya) Embankment, 11 became actually the birth-place of the new University. For several months it housed the entire educational resources and facilities of the newly created Institute, and later, when the Institute finally settled in one of the buildings of the Moscow Power Engineering Institute named after V.M. Molotov (late 1949), the technical college housed an educational and consulting center, a Marxism-Leninism studies classroom, the central library and a reading room. The work of the branches was organized on the rented premises.<br>
+  <br>
+  In the first post-war years, with the difficulties inevitable at the time, the formation and the development of the new educational institution, was carried out by the Institute teaching staff and the employees under the guidance of V.K. Ganin, the first Rector of the Institute. They did everything possible to bring the Institute up to the standards set by the Government Decree and other regulations.<br>
+  <br>
+  Vasily Kondratyevich Ganin, worked as Rector of the Institute from July 1947 to April 1948.<br>
+  <br>
+  Vasily Kondratyevich Ganin was born on March 3, 1903. He graduated from the Communist University of Siberia (1925), later - from the Moscow Power Engineering Institute (1932), and completed two courses of the Economic Institute of Red Professors (1937). Candidate of Technical Sciences, Associate Professor at the Department of General and Theoretical Heat Engineering.<br>
+  <br>
+  At the beginning of December, the Institute already had over 1100 students studying at six departments (with 11 specialties), and more than 3600 students of the only Department of Advanced Engineering for graduate engineers in the country's technical universities. Students below the age of 20 accounted for only 9 percent of the total number, while the largest share (66 percent) were young people in their mid-20-s and early 30-s.<br>
+  It is worth mentioning that by the end of the first academic year, about 40 percent of the students (425 people) had become members of the radio engineering department, and subsequently the popularity of the radio engineering specialty among the applicants was constantly growing.<br>
+  <br>
+  Among the teaching staff of the Institute there were 19 doctors of sciences and professors, 30 candidates of sciences and associate professors. At the time of its formation, there were already up to 10 laureates of the Stalin Prize, the highest award in the field of science and technology; they worked at different departments of the new Institute. Since December 1947, the Department of Electrical Physics was headed by N.N. Andreev, an outstanding scientist, founder of the national school of physical and theoretical acoustics, Corresponding Member (later - Full Member) of the USSR Academy of Sciences (now the Acoustic Institute of the Russian Academy of Sciences is bearing his name).<br>
+  <br>
+  On September 1, 1947, admission to postgraduate studies was announced in all specialties and departments of the Institute. Just a year later, 34 people began their academic work, and already in 1950, there was the first defense of the dissertation by B.N. Tardov, postgraduate student, who later became a major specialist in the field of electrical materials science.<br>
+  <br>
+  On November 25, 1947, the first meeting of the Board of the All-Union Correspondence Power Engineering Institute was held, in January of the following year, the Institute's Charter was approved, its library funds formed, and a little later the editorial and publishing department was created. The editorial review board was approved under the guidance of its director, which made it possible to expand work on the preparation and distribution of educational and methodological literature to other universities of the energy profile.<br>
+  In October 1947, grassroots organizations were formed at the Institute - the trade union division (N.N. Kalitvyansky, the first chairman of the local committee, candidate of technical sciences, Associate Professor, head of the department of the theory of mechanisms, machines and machine parts) and the communist party organization (G.F. Fokin, secretary of the party bureau, senior lecturer of the Department of Descriptive Geometry and Graphics, participant in the Great Patriotic War was at the head of it).<br>
+  <br>
+  In May 1948, A.L. Bankwitzer took over as the Institute director (May 1948 - November 1950)<br>
+  <br>
+  Bankwitzer Achilles Lvovich was born on 27 of March 1892. Graduated from the Kiev Commercial Institute (1916), took a postgraduate course at the Physical and Chemical Institute named after L.Ya. Karpov (1935). Participated in the Civil, Soviet-Finnish and the Great Patriotic Wars.<br>
+  In the years of his rectorship, the first specialists graduated from the Institute, among them were those who came to the Institute to take just the senior courses: in July 9, people received engineering degrees, four of which – cum laude.<br>
+  <br>
+  In May of the same year, an organizational meeting of the Scientific and Technical Society was held, the temporarily N.N. Andreev became head of the organization. The Society became the initiator of the first scientific and technical conference at the Institute (June 1950). Presentations and reports were made not only by the Institute’s lecturers and outside specialists, but also graduate students, and the students of the Institute. The involvement of the teaching staff (often of related departments) in solving specific problems of the national economy through the agreements on cooperation signed by the Institute with industrial enterprises and research institutes dates back to this time, and eventually reached a really wide scope.<br>
+  (Gorky Automobile Plant, Research Institute of the Ministry of Aviation Industry, etc.)<br>
+  <br>
+  The time between 1940-s and 1950-s was marked by the beginning of serious structural transformations of the Correspondence Institute: in August 1949, one of the departments (the hydropower department) was closed down; in September 1950, the students and lecturers of the Baku (Caucasian) branch were transferred to the correspondence department of the Azerbaijan Industrial Institute. At the same time, the Institute started a network of educational and consulting points at the end of 1949, its Moscow Study Support Center began to function on the basis of the Moscow Power Engineering Institute (MPEI).<br>
+  <br>
+  <strong>History of the Moscow State University of Instrument Engineering and Computer Science.</strong><br>
+  <br>
+  The University was established by the order of the People's Commissariat of Local Industry of the RSFSR, No. 1168, of September 16, 1936 as the Moscow Republican Correspondence Institute of the Metal-Working Industry, which by Decree No. 951 of the Council of the People's Commissars of the USSR, of August 29, 1938 and Order No. 783 of the People's Commissariat of Local Industry of the RSFSR of September 21, 1938, was declared the Moscow Correspondence Institute of the Metal Industry, an independent correspondence higher educational institution.<br>
+  <br>
+  By Order No. 14083-r of the Council of Ministers of the USSR of September 4, 1950 and by Order No. 1705 of the Minister of Higher Education of the USSR of September 27, 1950, the Moscow Correspondence Institute of Metal Industry was reorganized into the All-Union Correspondence Machine-Building Institute, which, by Resolution No. 337 of the Council of Ministers of the USSR of March 14, 1988, and by order No. 230 of the Ministry of Higher and Secondary Specialized Education of the RSFSR, dated April 21, 1988, was transformed into the Moscow Institute of Instrumentation.<br>
+  <br>
+  By Order No. 647 of the State Committee of the Russian Federation for Higher Education, dated July 1, 1994, the Moscow Institute of Instrument Engineering was renamed into the Moscow State Academy of Instrument Engineering and Informatics and was reorganized by Order No. 1945, of the Ministry of General and Professional Education of the Russian Federation dated July 17, 1998. The Moscow Radio-mechanical Technical School was acceded to the Institute.<br>
+  <br>
+  On August 17, 2004, the Moscow State Academy of Instrument Engineering and Informatics was included in the Unified State Register of Legal Entities as the State Educational Institution of Higher Professional Education - the Moscow State Academy of Instrument Engineering and Informatics, which was later renamed into Moscow State University of Instrument Engineering and Informatics, a State educational institution of higher professional education.<br>
+  <br>
+  By order No. 1879 of the Ministry of Education and Science of the Russian Federation, dated May 27, 2011, the state educational institution of higher professional education Moscow State University of Instrument Engineering and Informatics was renamed into the Federal State Budgetary Educational Institution of Higher Professional Education - the Moscow State University of Instrument Engineering and Informatics.<br>
+  <br>
+  In 2014, it became part of the Moscow Technological University<br>
+  <br>
+  <strong>The History of Lomonosov Moscow State University of Fine Chemical Technology</strong><br>
+  <br>
+  Lomonosov Moscow State University of Fine Chemical Technology is one of the oldest universities in Russia. The University’s history goes back to the Moscow Higher Courses for Women.<br>
+  The courses were organized on July 1 (14th, new style) July 1900. Initially, the courses had two departments: of physics and mathematics and of history and philosophy. At the Department of Physics and Mathematics, two more departments were soon organized: mathematical and that of natural sciences; and a few years later still more departments were created – the medical and chemical and pharmaceutical departments.<br>
+  <br>
+  In 1918, the Women’s Courses were transformed into the 2nd Moscow State University consisting of three departments – departments of history, medicine, and chemistry.<br>
+  <br>
+  In 1930, the 2nd Moscow State University was divided into three independent universities; The Moscow Institute of Fine Chemical Technology became the successor to the Department of Chemistry.<br>
+  <br>
+  For achievements in academic research and training of specialists, in 1940 the Institute was named after M.V. Lomonosov, and in 1971, it was awarded the Order of the Red Banner of Labor.<br>
+  <br>
+  In 1992, the Institute received the status of an academy.<br>
+  <br>
+  In 2011, by the Order of the Ministry of Education and Science of the Russian Federation, the Institute of Fine Chemical Technology received the status of a university. In the same year, it was granted a perpetual license with the right to conduct educational activities.<br>
+  <br>
+  Thus, the history of the Institute can be divided into a number of stages:</p>
+  
+  <ul>
+      <li>
+      <p>Women’s Courses (1900 - 1918);</p>
+      </li>
+      <li>
+      <p>the 2nd Moscow State University (1918 - 1930);</p>
+      </li>
+      <li>
+      <p>the pre-war period of the Institute (1930 - 1941);</p>
+      </li>
+      <li>
+      <p>the Institute functioning during the Great Patriotic War (1941 - 1945) and the post-war period of the Institute (1945 - 1970);</p>
+      </li>
+      <li>
+      <p>the Institute during the period of the "developed socialism" and "perestroika" (1970 - 1992);</p>
+      </li>
+      <li>
+      <p>the academy period (1992 - 2011);</p>
+      </li>
+      <li>
+      <p>the University period - since 2011.</p>
+      </li>
+  </ul>
+  
+  <p>In different years, the most prominent scholars and professors worked at the Institute: academicians A.N. Nesmeyanov, S.S. Nametkin, I.N. Nazarov, Ya.K. Syrkin, V.M. Rodionov, G.G. Urazov, S.S. Medvedev, I.P. Alimarin, K.A. Andrianov, I.V. Tananaev, N.N. Nekrasov, I.L. Knunyats, N.P. Fedorenko, V.I. Gol'dansky, Corresponding Members of the Academy of Sciences A.N. Bashkirov, V.V. Lebedinsky, B.A. Sakharov, K.A. Bolshakov, A.N. Righteous, R.P. Evstigneev, professor A.A. Eichenwald, V.T. Wolfe, B.K. Mlodzievsky, O.N. Zuberbiller, M.I. Prozin, N.A. Preobrazhensky, B.A. Dogadkin, N.I. Gelperin, S.S. Voyutsky, S.V. Lvov, F.F. Koshelev, V.Yu. Plushev, N.S. Pechura, R.M. Flid, A.V. Netushil.<br>
+  Lomonosov Moscow State University of Fine Chemical Technology was established at the time of the Moscow Higher Courses for Women and the 2nd Moscow State University by such top notch scholars as N.E. Zhukovsky, S.A. Chaplygin, V.I. Vernadsky, N. D. Zelinsky.<br>
+  <br>
+  <strong>The History of the All-Union Scientific Research Institute of Technical Aesthetics (widely known as VNIITE)</strong><br>
+  <br>
+  The All-Union Scientific Research Institute of Technical Aesthetics was founded in 1962. The creation of such an institution served as an initial stage in the development of design activity in Russia. The main task of the Institute was to organize and develop design activity in the republics, regions and industries, to create foundations for professional activity. Since 1967, VNIITE has been conducting expert examination for awarding industrial goods the quality mark.<br>
+  Prior to 1991, VNIITE was in charge of design bureaus at enterprises manufacturing consumer goods. VNIITE had 10 branches, the Institute guiding the activity of special design bureaus at enterprises, and the Center for Technical Aesthetics was also functioning at the time; it carried out work to promote and popularize design activity in the country and abroad. In 1992, the Institute was renamed into the All-Russian Scientific Research Institute of Technical Aesthetics.<br>
+  <br>
+  In 1968, VNIITE formed a system for training highly qualified research personnel in technical aesthetics. Currently, the Institute has a Board for awarding doctoral and candidate titles D217.003.01 approved by order No. 203-231 of the Federal Service for Supervision in Education and Science of 15.02.2008 in specialties 17.00.06 - Technical Aesthetics and Design (Art History) and 19.00.03 - Labor Psychology, Engineering Psychology, Ergonomics (Psychological Sciences).<br>
+  <br>
+  Since 1965, VNIITE, as the parent organization for design activity, has represented our country at the International Council of Design Organizations (ICSID), bearing in mind that design is one of the channels for Russia's integration into the world economy and design culture. In accordance with Order No. 1635-r of the Government of the Russian Federation of November 19, 2007 and the order of the Ministry of Education and Science of Russia, Rosnauka represented by VNIITE is charged with the work relating to the implementation of the obligations of the Russian party in the activities of ICSID.<br>
+  <br>
+  An annual competition for the best design project among talented young people is held at VNIITE. Cooperating with the leading universities of the country and creating an intelligent database of student projects for their further implementation, the Institute contributes to the development of design and various fields of production in Russia.<br>
+  <br>
+  In 2014, VNIITE became part of the Moscow Technological University MIREA and was renamed into the Scientific Research Institute of Technical Aesthetics.</p>
+  
+  <blockquote>
+  <h1><strong>History in photos</strong></h1>
+  </blockquote>
+  
+  <p><a href="https://english.mirea.ru/upload/iblock/c3d/33.jpg"><img alt="history_photo_33" src="https://english.mirea.ru/upload/resize_cache/iblock/c3d/240_148_2/33.jpg"></a>&nbsp;<a href="https://english.mirea.ru/upload/iblock/7ae/9.jpg"><img alt="history_photo_9" src="https://english.mirea.ru/upload/resize_cache/iblock/7ae/240_148_2/9.jpg"></a>&nbsp;<a href="https://english.mirea.ru/upload/iblock/c8f/8.jpg"><img alt="history_photo_8" src="https://english.mirea.ru/upload/resize_cache/iblock/c8f/240_148_2/8.jpg"></a>&nbsp;<a href="https://english.mirea.ru/upload/iblock/e39/7.jpg"><img alt="history_photo_7" src="https://english.mirea.ru/upload/resize_cache/iblock/e39/240_148_2/7.jpg"></a>&nbsp;<a href="https://english.mirea.ru/upload/iblock/f65/6.jpg"><img alt="history_photo_6" src="https://english.mirea.ru/upload/resize_cache/iblock/f65/240_148_2/6.jpg"></a>&nbsp;<a href="https://english.mirea.ru/upload/iblock/fa4/5.jpg"><img alt="history_photo_5" src="https://english.mirea.ru/upload/resize_cache/iblock/fa4/240_148_2/5.jpg"></a>&nbsp;<a href="https://english.mirea.ru/upload/iblock/e91/40.jpg"><img alt="history_photo_40" src="https://english.mirea.ru/upload/resize_cache/iblock/e91/240_148_2/40.jpg"></a>&nbsp;<a href="https://english.mirea.ru/upload/iblock/fbb/4.jpg"><img alt="history_photo_4" src="https://english.mirea.ru/upload/resize_cache/iblock/fbb/240_148_2/4.jpg"></a>&nbsp;<a href="https://english.mirea.ru/upload/iblock/a47/39.jpg"><img alt="history_photo_39" src="https://english.mirea.ru/upload/resize_cache/iblock/a47/240_148_2/39.jpg"></a>&nbsp;<a href="https://english.mirea.ru/upload/iblock/2c2/38.jpg"><img alt="history_photo_38" src="https://english.mirea.ru/upload/resize_cache/iblock/2c2/240_148_2/38.jpg"></a>&nbsp;<a href="https://english.mirea.ru/upload/iblock/e49/37.jpg"><img alt="history_photo_37" src="https://english.mirea.ru/upload/resize_cache/iblock/e49/240_148_2/37.jpg"></a>&nbsp;<a href="https://english.mirea.ru/upload/iblock/c47/36.jpg"><img alt="history_photo_36" src="https://english.mirea.ru/upload/resize_cache/iblock/c47/240_148_2/36.jpg"></a>&nbsp;<a href="https://english.mirea.ru/upload/iblock/405/35.jpg"><img alt="history_photo_35" src="https://english.mirea.ru/upload/resize_cache/iblock/405/240_148_2/35.jpg"></a>&nbsp;<a href="https://english.mirea.ru/upload/iblock/23d/34.jpg"><img alt="history_photo_34" src="https://english.mirea.ru/upload/resize_cache/iblock/23d/240_148_2/34.jpg"></a>&nbsp;<a href="https://english.mirea.ru/upload/iblock/c13/32.jpg"><img alt="history_photo_32" src="https://english.mirea.ru/upload/resize_cache/iblock/c13/240_148_2/32.jpg"></a>&nbsp;<a href="https://english.mirea.ru/upload/iblock/771/31.jpg"><img alt="history_photo_31" src="https://english.mirea.ru/upload/resize_cache/iblock/771/240_148_2/31.jpg"></a>&nbsp;<a href="https://english.mirea.ru/upload/iblock/09e/30.jpg"><img alt="history_photo_30" src="https://english.mirea.ru/upload/resize_cache/iblock/09e/240_148_2/30.jpg"></a>&nbsp;<a href="https://english.mirea.ru/upload/iblock/734/3.jpg"><img alt="history_photo_3" src="https://english.mirea.ru/upload/resize_cache/iblock/734/240_148_2/3.jpg"></a>&nbsp;<a href="https://english.mirea.ru/upload/iblock/e42/29.jpg"><img alt="history_photo_29" src="https://english.mirea.ru/upload/resize_cache/iblock/e42/240_148_2/29.jpg"></a>&nbsp;<a href="https://english.mirea.ru/upload/iblock/323/28.jpg"><img alt="history_photo_28" src="https://english.mirea.ru/upload/resize_cache/iblock/323/240_148_2/28.jpg"></a>&nbsp;<a href="https://english.mirea.ru/upload/iblock/39d/27.jpg"><img alt="history_photo_27" src="https://english.mirea.ru/upload/resize_cache/iblock/39d/240_148_2/27.jpg"></a>&nbsp;<a href="https://english.mirea.ru/upload/iblock/1f1/26.jpg"><img alt="history_photo_26" src="https://english.mirea.ru/upload/resize_cache/iblock/1f1/240_148_2/26.jpg"></a>&nbsp;<a href="https://english.mirea.ru/upload/iblock/462/25.jpg"><img alt="history_photo_25" src="https://english.mirea.ru/upload/resize_cache/iblock/462/240_148_2/25.jpg"></a>&nbsp;<a href="https://english.mirea.ru/upload/iblock/7d8/24.jpg"><img alt="history_photo_24" src="https://english.mirea.ru/upload/resize_cache/iblock/7d8/240_148_2/24.jpg"></a>&nbsp;<a href="https://english.mirea.ru/upload/iblock/475/23.jpg"><img alt="history_photo_23" src="https://english.mirea.ru/upload/resize_cache/iblock/475/240_148_2/23.jpg"></a>&nbsp;<a href="https://english.mirea.ru/upload/iblock/d44/22.jpg"><img alt="history_photo_22" src="https://english.mirea.ru/upload/resize_cache/iblock/d44/240_148_2/22.jpg"></a>&nbsp;<a href="https://english.mirea.ru/upload/iblock/738/21.jpg"><img alt="history_photo_21" src="https://english.mirea.ru/upload/resize_cache/iblock/738/240_148_2/21.jpg"></a>&nbsp;<a href="https://english.mirea.ru/upload/iblock/bce/20.jpg"><img alt="history_photo_20" src="https://english.mirea.ru/upload/resize_cache/iblock/bce/240_148_2/20.jpg"></a>&nbsp;<a href="https://english.mirea.ru/upload/iblock/605/2.jpg"><img alt="history_photo_2" src="https://english.mirea.ru/upload/resize_cache/iblock/605/240_148_2/2.jpg"></a>&nbsp;<a href="https://english.mirea.ru/upload/iblock/bb7/19.jpg"><img alt="history_photo_19" src="https://english.mirea.ru/upload/resize_cache/iblock/bb7/240_148_2/19.jpg"></a></p>
+  
+  <p>&nbsp;</p>
+  
+  <blockquote>
+  <h1><strong>University Museum</strong></h1>
+  </blockquote>
+  
+  <h1><em>University Museum, Campus on 78 Vernadsky Prospect</em></h1>
+  
+  <p><a href="https://www.mirea.ru/upload/medialibrary/bdd/RTU_3728JPG.jpg"><img src="https://www.mirea.ru/upload/medialibrary/bdd/RTU_3728JPG.jpg"></a><a href="https://www.mirea.ru/upload/medialibrary/05a/RTU_3731JPG.jpg"><img src="https://www.mirea.ru/upload/medialibrary/05a/RTU_3731JPG.jpg"></a><a href="https://www.mirea.ru/upload/medialibrary/7e9/RTU_3734JPG.jpg"><img src="https://www.mirea.ru/upload/medialibrary/7e9/RTU_3734JPG.jpg"></a><a href="https://www.mirea.ru/upload/medialibrary/3d7/RTU_3735JPG.jpg"><img src="https://www.mirea.ru/upload/medialibrary/3d7/RTU_3735JPG.jpg"></a><a href="https://www.mirea.ru/upload/medialibrary/2fc/RTU_3738JPG.jpg"><img src="https://www.mirea.ru/upload/medialibrary/2fc/RTU_3738JPG.jpg"></a><a href="https://www.mirea.ru/upload/medialibrary/966/RTU_3739JPG.jpg"><img src="https://www.mirea.ru/upload/medialibrary/966/RTU_3739JPG.jpg"></a><a href="https://www.mirea.ru/upload/medialibrary/eb6/RTU_3742JPG.jpg"><img src="https://www.mirea.ru/upload/medialibrary/eb6/RTU_3742JPG.jpg"></a><a href="https://www.mirea.ru/upload/medialibrary/e3f/RTU_3743JPG.jpg"><img src="https://www.mirea.ru/upload/medialibrary/e3f/RTU_3743JPG.jpg"></a><a href="https://www.mirea.ru/upload/medialibrary/831/RTU_3747JPG.jpg"><img src="https://www.mirea.ru/upload/medialibrary/831/RTU_3747JPG.jpg"></a><a href="https://www.mirea.ru/upload/medialibrary/388/RTU_3749JPG.jpg"><img src="https://www.mirea.ru/upload/medialibrary/388/RTU_3749JPG.jpg"></a><a href="https://www.mirea.ru/upload/medialibrary/da4/RTU_3752JPG.jpg"><img src="https://www.mirea.ru/upload/medialibrary/da4/RTU_3752JPG.jpg"></a><a href="https://www.mirea.ru/upload/medialibrary/e6c/RTU_3753JPG.jpg"><img src="https://www.mirea.ru/upload/medialibrary/e6c/RTU_3753JPG.jpg"></a><a href="https://www.mirea.ru/upload/medialibrary/820/RTU_3754JPG.jpg"><img src="https://www.mirea.ru/upload/medialibrary/820/RTU_3754JPG.jpg"></a><a href="https://www.mirea.ru/upload/medialibrary/b72/RTU_3756JPG.jpg"><img src="https://www.mirea.ru/upload/medialibrary/b72/RTU_3756JPG.jpg"></a><a href="https://www.mirea.ru/upload/medialibrary/38c/RTU_3759JPG.jpg"><img src="https://www.mirea.ru/upload/medialibrary/38c/RTU_3759JPG.jpg"></a><a href="https://www.mirea.ru/upload/medialibrary/b80/RTU_3766JPG.jpg"><img src="https://www.mirea.ru/upload/medialibrary/b80/RTU_3766JPG.jpg"></a><a href="https://www.mirea.ru/upload/medialibrary/0cf/RTU_3778JPG.jpg"><img src="https://www.mirea.ru/upload/medialibrary/0cf/RTU_3778JPG.jpg"></a><a href="https://www.mirea.ru/upload/medialibrary/7fb/RTU_3781JPG.jpg"><img src="https://www.mirea.ru/upload/medialibrary/7fb/RTU_3781JPG.jpg"></a><a href="https://www.mirea.ru/upload/medialibrary/9e7/RTU_3782JPG.jpg"><img src="https://www.mirea.ru/upload/medialibrary/9e7/RTU_3782JPG.jpg"></a><a href="https://www.mirea.ru/upload/medialibrary/a30/RTU_3792JPG.jpg"><img src="https://www.mirea.ru/upload/medialibrary/a30/RTU_3792JPG.jpg"></a><a href="https://www.mirea.ru/upload/medialibrary/665/RTU_3793JPG.jpg"><img src="https://www.mirea.ru/upload/medialibrary/665/RTU_3793JPG.jpg"></a><a href="https://www.mirea.ru/upload/medialibrary/cac/RTU_3795JPG.jpg"><img src="https://www.mirea.ru/upload/medialibrary/cac/RTU_3795JPG.jpg"></a><a href="https://www.mirea.ru/upload/medialibrary/7bf/RTU_3802JPG.jpg"><img src="https://www.mirea.ru/upload/medialibrary/7bf/RTU_3802JPG.jpg"></a><a href="https://www.mirea.ru/upload/medialibrary/e8f/RTU_3803JPG.jpg"><img src="https://www.mirea.ru/upload/medialibrary/e8f/RTU_3803JPG.jpg"></a><a href="https://www.mirea.ru/upload/medialibrary/92a/RTU_3811JPG.jpg"><img src="https://www.mirea.ru/upload/medialibrary/92a/RTU_3811JPG.jpg"></a><a href="https://www.mirea.ru/upload/medialibrary/82c/RTU_3813JPG.jpg"><img src="https://www.mirea.ru/upload/medialibrary/82c/RTU_3813JPG.jpg"></a><a href="https://www.mirea.ru/upload/medialibrary/ddc/RTU_3817JPG.jpg"><img src="https://www.mirea.ru/upload/medialibrary/ddc/RTU_3817JPG.jpg"></a><a href="https://www.mirea.ru/upload/medialibrary/4d6/RTU_3819JPG.jpg"><img src="https://www.mirea.ru/upload/medialibrary/4d6/RTU_3819JPG.jpg"></a><a href="https://www.mirea.ru/upload/medialibrary/032/RTU_3830JPG.jpg"><img src="https://www.mirea.ru/upload/medialibrary/032/RTU_3830JPG.jpg"></a><a href="https://www.mirea.ru/upload/medialibrary/24e/RTU_3837JPG.jpg"><img src="https://www.mirea.ru/upload/medialibrary/24e/RTU_3837JPG.jpg"></a><a href="https://www.mirea.ru/upload/medialibrary/1ae/RTU_3839JPG.jpg"><img src="https://www.mirea.ru/upload/medialibrary/1ae/RTU_3839JPG.jpg"></a><a href="https://www.mirea.ru/upload/medialibrary/e79/RTU_3849JPG.jpg"><img src="https://www.mirea.ru/upload/medialibrary/e79/RTU_3849JPG.jpg"></a><a href="https://www.mirea.ru/upload/medialibrary/66c/RTU_3862JPG.jpg"><img src="https://www.mirea.ru/upload/medialibrary/66c/RTU_3862JPG.jpg"></a><a href="https://www.mirea.ru/upload/medialibrary/536/RTU_3876JPG.jpg"><img src="https://www.mirea.ru/upload/medialibrary/536/RTU_3876JPG.jpg"></a><a href="https://www.mirea.ru/upload/medialibrary/627/RTU_3877JPG.jpg"><img src="https://www.mirea.ru/upload/medialibrary/627/RTU_3877JPG.jpg"></a><a href="https://www.mirea.ru/upload/medialibrary/af6/RTU_3879JPG.jpg"><img src="https://www.mirea.ru/upload/medialibrary/af6/RTU_3879JPG.jpg"></a><a href="https://www.mirea.ru/upload/medialibrary/fae/RTU_3776JPG.jpg"><img src="https://www.mirea.ru/upload/medialibrary/fae/RTU_3776JPG.jpg"></a><a href="https://www.mirea.ru/upload/medialibrary/e46/RTU_3809JPG.jpg"><img src="https://www.mirea.ru/upload/medialibrary/e46/RTU_3809JPG.jpg"></a><a href="https://www.mirea.ru/upload/medialibrary/2dd/RTU_3826JPG.jpg"><img src="https://www.mirea.ru/upload/medialibrary/2dd/RTU_3826JPG.jpg"></a></p>
+  
+  <h1><em>University Museum, Campus on 78 Vernadsky Prospect</em></h1>
+  
+  <p><a href="https://www.mirea.ru/upload/medialibrary/5bc/20170214_144658.jpg"><img src="https://www.mirea.ru/upload/medialibrary/5bc/20170214_144658.jpg"></a><a href="https://www.mirea.ru/upload/medialibrary/8cd/20170214_145007.jpg"><img src="https://www.mirea.ru/upload/medialibrary/8cd/20170214_145007.jpg"></a><a href="https://www.mirea.ru/upload/medialibrary/00e/20170214_145736.jpg"><img src="https://www.mirea.ru/upload/medialibrary/00e/20170214_145736.jpg"></a><a href="https://www.mirea.ru/upload/medialibrary/79e/DSC_3202_N-r_2_.jpg"><img src="https://www.mirea.ru/upload/medialibrary/79e/DSC_3202_N-r_2_.jpg"></a><a href="https://www.mirea.ru/upload/medialibrary/f6a/DSCF2268-1.jpg"><img src="https://www.mirea.ru/upload/medialibrary/f6a/DSCF2268-1.jpg"></a><a href="https://www.mirea.ru/upload/medialibrary/9b6/RTU_5570JPG.jpg"><img src="https://www.mirea.ru/upload/medialibrary/9b6/RTU_5570JPG.jpg"></a><a href="https://www.mirea.ru/upload/medialibrary/224/RTU_5571JPG.jpg"><img src="https://www.mirea.ru/upload/medialibrary/224/RTU_5571JPG.jpg"></a><a href="https://www.mirea.ru/upload/medialibrary/186/RTU_5579JPG.jpg"><img src="https://www.mirea.ru/upload/medialibrary/186/RTU_5579JPG.jpg"></a><a href="https://www.mirea.ru/upload/medialibrary/073/RTU_5581JPG.jpg"><img src="https://www.mirea.ru/upload/medialibrary/073/RTU_5581JPG.jpg"></a><a href="https://www.mirea.ru/upload/medialibrary/8d7/RTU_5586JPG.jpg"><img src="https://www.mirea.ru/upload/medialibrary/8d7/RTU_5586JPG.jpg"></a><a href="https://www.mirea.ru/upload/medialibrary/6bb/RTU_5587JPG.jpg"><img src="https://www.mirea.ru/upload/medialibrary/6bb/RTU_5587JPG.jpg"></a><a href="https://www.mirea.ru/upload/medialibrary/eda/RTU_5589JPG.jpg"><img src="https://www.mirea.ru/upload/medialibrary/eda/RTU_5589JPG.jpg"></a><a href="https://www.mirea.ru/upload/medialibrary/633/RTU_5592JPG.jpg"><img src="https://www.mirea.ru/upload/medialibrary/633/RTU_5592JPG.jpg"></a><a href="https://www.mirea.ru/upload/medialibrary/d7e/RTU_5597JPG.jpg"><img src="https://www.mirea.ru/upload/medialibrary/d7e/RTU_5597JPG.jpg"></a><a href="https://www.mirea.ru/upload/medialibrary/7f5/RTU_5602JPG.jpg"><img src="https://www.mirea.ru/upload/medialibrary/7f5/RTU_5602JPG.jpg"></a><a href="https://www.mirea.ru/upload/medialibrary/cc3/RTU_5603JPG.jpg"><img src="https://www.mirea.ru/upload/medialibrary/cc3/RTU_5603JPG.jpg"></a><a href="https://www.mirea.ru/upload/medialibrary/520/RTU_5604JPG.jpg"><img src="https://www.mirea.ru/upload/medialibrary/520/RTU_5604JPG.jpg"></a><a href="https://www.mirea.ru/upload/medialibrary/83d/RTU_5643JPG.jpg"><img src="https://www.mirea.ru/upload/medialibrary/83d/RTU_5643JPG.jpg"></a><a href="https://www.mirea.ru/upload/medialibrary/a42/RTU_5647JPG.jpg"><img src="https://www.mirea.ru/upload/medialibrary/a42/RTU_5647JPG.jpg"></a><a href="https://www.mirea.ru/upload/medialibrary/e86/RTU_5648JPG.jpg"><img src="https://www.mirea.ru/upload/medialibrary/e86/RTU_5648JPG.jpg"></a><a href="https://www.mirea.ru/upload/medialibrary/67a/RTU_5650JPG.jpg"><img src="https://www.mirea.ru/upload/medialibrary/67a/RTU_5650JPG.jpg"></a><a href="https://www.mirea.ru/upload/medialibrary/217/RTU_5651JPG.jpg"><img src="https://www.mirea.ru/upload/medialibrary/217/RTU_5651JPG.jpg"></a><a href="https://www.mirea.ru/upload/medialibrary/e0b/RTU_5653JPG.jpg"><img src="https://www.mirea.ru/upload/medialibrary/e0b/RTU_5653JPG.jpg"></a><a href="https://www.mirea.ru/upload/medialibrary/486/RTU_5655JPG.jpg"><img src="https://www.mirea.ru/upload/medialibrary/486/RTU_5655JPG.jpg"></a><a href="https://www.mirea.ru/upload/medialibrary/fd1/RTU_5656JPG.jpg"><img src="https://www.mirea.ru/upload/medialibrary/fd1/RTU_5656JPG.jpg"></a><a href="https://www.mirea.ru/upload/medialibrary/354/RTU_5658JPG.jpg"><img src="https://www.mirea.ru/upload/medialibrary/354/RTU_5658JPG.jpg"></a><a href="https://www.mirea.ru/upload/medialibrary/e9a/RTU_5670JPG.jpg"><img src="https://www.mirea.ru/upload/medialibrary/e9a/RTU_5670JPG.jpg"></a><a href="https://www.mirea.ru/upload/medialibrary/88e/20140911_144527.jpg"><img src="https://www.mirea.ru/upload/medialibrary/88e/20140911_144527.jpg"></a><a href="https://www.mirea.ru/upload/medialibrary/00d/20170214_150000.jpg"><img src="https://www.mirea.ru/upload/medialibrary/00d/20170214_150000.jpg"></a><a href="https://www.mirea.ru/upload/medialibrary/d9f/DSC_6066.jpg"><img src="https://www.mirea.ru/upload/medialibrary/d9f/DSC_6066.jpg"></a><a href="https://www.mirea.ru/upload/medialibrary/7c0/DSC_6080.jpg"><img src="https://www.mirea.ru/upload/medialibrary/7c0/DSC_6080.jpg"></a><a href="https://www.mirea.ru/upload/medialibrary/f01/RTU_5619JPG.jpg"><img src="https://www.mirea.ru/upload/medialibrary/f01/RTU_5619JPG.jpg"></a></p>
+  
+              </div>
+          
+              </div>
+  
+  
+  
+            </div>
+          </div> <!-- / .row -->
+        </div> <!-- / .container -->
+      </section>
+
+
+<!-- JAVASCRIPT
+    ================================================== -->
+    <!-- Global JS -->
+    <script src="assets/libs/jquery/dist/jquery.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCnKt8_N4-FKOnhI_pSaDL7g_g-XI1-R9E"></script>
+
+    <!-- Plugins JS -->
+    <script src="assets/libs/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/libs/flickity/dist/flickity.pkgd.min.js"></script>
+    <script src="assets/libs/flickity-fade/flickity-fade.js"></script>
+    <script src="assets/libs/jquery-parallax.js/parallax.min.js"></script>
+    <script src="assets/libs/waypoints/lib/jquery.waypoints.min.js"></script>
+    <script src="assets/libs/waypoints/lib/shortcuts/inview.min.js"></script>
+    <script src="assets/libs/fullpage.js/vendors/scrolloverflow.min.js"></script>
+    <script src="assets/libs/fullpage.js/dist/fullpage.min.js"></script>
+    <script src="assets/libs/highlightjs/highlight.pack.min.js"></script>
+    <script src="assets/vendors/ckeditor/ckeditor.js"></script>
+
+
+    <!-- Theme JS -->
+    <script src="assets/js/theme.min.js"></script>
+    <script src="assets/js/main.js"></script>
+
+<!-- FOOTER
+     ================================================== -->
+     <footer class="section bg-dark" style="background-image: linear-gradient(90deg, rgba(2,0,36,0.45) 0%, rgba(9,9,121,0.45) 41%, rgba(0,212,255,0.45) 100%),
+     url(images/background/footer.jpg); background-size: cover;">
+ 
+       <!-- Triangles -->
+       <div class="bg-triangle bg-triangle-light bg-triangle-bottom bg-triangle-left"></div>
+       <div class="bg-triangle bg-triangle-light bg-triangle-bottom bg-triangle-right"></div>
+ 
+       <!--Content -->
+       <div class="container">
+           <div class="row row-cols-4 align-self-center">
+             <div class="col-md">
+ 
+                 <!-- Brand -->
+                 <p>
+                   <a href="#" class="footer-brand text-white">
+                     <img src="images/logo/logo.png" style="width: 70%;" alt="logo">
+                   </a>
+                 </p>
+                 <p>
+                  <!-- Social links -->
+                 </p><ul class="list-inline list-unstyled text-md-left">
+                   <li class="list-inline-item">
+                     <a class="icon-footer" href="https://vk.com/mirea_official">
+                       <i class="fab fa-vk"></i>
+                     </a>
+                   </li>
+                   <li class="list-inline-item ml-2">
+                     <a class="icon-footer" href="https://www.facebook.com/mireaofficial">
+                       <i class="fab fa-facebook"></i>
+                     </a>
+                   </li>
+                   <li class="list-inline-item ml-2">
+                     <a class="icon-footer" href="http://telegram.me/priem_mirea">
+                       <i class="fab fa-telegram"></i>
+                     </a>
+                   </li>
+                   <li class="list-inline-item ml-2">
+                     <a class="icon-footer" href="https://www.youtube.com/channel/UClVZx_AWcLq8cXViG9NSXAA">
+                       <i class="fab fa-youtube"></i>
+                     </a>
+                   </li>
+                   <li class="list-inline-item ml-2">
+                     <a class="icon-footer" href="https://www.instagram.com/rtu_university_official/?hl=ru">
+                       <i class="fab fa-instagram"></i>
+                     </a>
+                   </li>
+     
+                   <li class="list-inline-item ml-2">
+                     <a class="icon-footer" href="https://twitter.com/mirea_ru">
+                       <i class="fab fa-twitter"></i>
+                     </a>
+                   </li>
+                 </ul>
+     
+                 <p></p>
+                 <p class="text-white">
+                     78 Vernadsky Avenue, Moscow 119454<br>
+                     +7 (499) 215-65-65<br>
+                     rector@mirea.ru
+                 </p>
+     
+     
+               </div>
+ 
+               <div class="col-md">
+                 <!-- Links -->
+                 <ul class="list-unstyled list-inline text-md-left text-footer">
+                   <p>
+                     About University
+                   </p>
+     
+                   <li class="today">
+                     <a href="about.html" class="text-white">
+                     University today
+                     </a>
+                   </li>
+ 
+                 
+                   <li class="admin">
+                     <a href="admin.html" class="text-white">
+                     Administration
+                     </a>
+                   </li>
+                 
+                   <li class="History">
+                     <a href="history.html" class="text-white">
+                     History
+                     </a>
+                 </li>
+                 
+                   <li class="university-logo">
+                     <a href="Logo.html" class="text-white">
+                     University Logo
+                     </a>
+                   </li>
+                             </ul>
+               </div>
+ 
+               <div class="col-md">
+ 
+ 
+                 <!-- Links -->
+                 <ul class="list-unstyled list-inline text-md-left text-footer">
+                   <p>
+                     Academics
+                   </p>
+     
+     
+                   <li class="">
+                     <a href="academics.html" class="text-white">
+                     Education System
+                     </a>
+                   </li>
+                 
+                 
+                   <li class="">
+                     <a href="academics-2.html" class="text-white">
+                     Additional Education Programs
+                     </a>
+                   </li>
+                           </ul>
+     
+               <!-- Links -->
+               <ul class="list-unstyled list-inline text-md-left text-footer">
+                   <p>
+                     Admission
+                   </p>
+     
+     
+                   <li class="">
+                     <a href="admisss.html" class="text-white">
+                      Admission Procedure
+                     </a>
+                   </li>
+
+                   <li class="">
+                    <a href="admis-1.html" class="text-white">
+                      Pre-university Training Department
+                    </a>
+                  </li>
+
+                  <li class="">
+                    <a href="admis-2.html" class="text-white">
+                        Migration regulations
+                    </a>
+                  </li>
+                 </ul>
+     
+               </div>
+ 
+               <div class="col-md">
+ 
+                 <!-- Links -->
+                 <ul class="list-unstyled list-inline text-md-left text-footer">
+                   <p>
+                     International
+                   </p>
+     
+     
+                   <li class="">
+                     <a href="inter.html" class="text-white">
+                     International Cooperation
+                     </a>
+                   </li>
+      
+                   <li class="">
+                     <a href="inter-1.html" class="text-white">
+                     International Relations Department
+                     </a>
+                   </li>
+                           </ul>
+               <ul class="list-unstyled list-inline text-md-left text-footer">
+                   <p>
+                     More
+                   </p>
+                   <li class="">
+                     <a href="https://english.mirea.ru/contacts/" class="text-white">
+                     Contact
+                     </a>
+                   </li>
+                   <li class="">
+                     <a href="https://www.mirea.ru/news/" class="text-white">
+                       News
+                     </a>
+                   </li>
+               </ul>
+     
+               </div>
+ 
+ 
+           </div>
+           <hr class="solid">
+           <p class="copyright">© 2021 MIREA - Russian Technological University | Create by <strong>VIETNAMESE STUDENT</strong> </p>
+       </div> <!-- / .container -->
+   </footer>
+ 
+</body>
+</html>

@@ -1,0 +1,1309 @@
+<!doctype html>
+<html lang="en">
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/ico/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/logo/mirea.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/logo/mirea.ico">
+    <link rel="manifest" href="assets/ico/site.webmanifest">
+    <link rel="mask-icon" href="assets/ico/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="images/logo/mirea.ico">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="msapplication-config" content="assets/ico/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+
+    <!-- Plugins CSS -->
+    <link rel="stylesheet" href="assets/libs/flickity/dist/flickity.min.css">
+    <link rel="stylesheet" href="assets/libs/flickity-fade/flickity-fade.css">
+    <link rel="stylesheet" href="assets/libs/fullpage.js/dist/fullpage.min.css">
+    <link rel="stylesheet" href="assets/libs/highlightjs/styles/codepen-embed.css">
+    <link rel="stylesheet" href="assets/libs/%40fortawesome/fontawesome-free/css/all.min.css">
+    <link rel="stylesheet" href="assets/libs/incline-icons/style.min.css">
+
+    <!-- Link Font -->
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Marcellus+SC&family=Rajdhani:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;1,100;1,500;1,600&family=Rajdhani:wght@500&display=swap" rel="stylesheet">
+
+    <!-- Theme CSS -->
+    <link rel="stylesheet" href="assets/css/theme.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script src="assets/libs/jquery/dist/jquery.min.js"></script>
+
+
+    <title>MIREA - Russian Technological University</title>
+  </head>
+  <body>
+
+  <!-- BANNER
+   =================================================-->
+  <div class="covid-banner">
+      <p >[CORONAVIRUS] <a href="https://www.mirea.ru/">News and Latest Update: all important information for students</a> <i class="fas fa-exclamation-circle"></i> <a href="#modal-virus" data-toggle="modal">Preventive measures</a></p>
+  </div>
+
+
+  <!-- MODALS Preventive measures
+  ================================================== -->
+  <div class="modal fade" id="modal-virus" tabindex="-1" role="dialog" aria-labelledby="modal-video-header" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-dialog-video modal-lg" role="document">
+          <div class="modal-content">
+
+              <!-- Header -->
+              <div class="modal-header">
+
+                  <!-- Title -->
+                  <h4 class="modal-title text-white" id="modal-video-header">
+                      Coronavirus preventive measures
+                  </h4>
+
+                  <!-- Close -->
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                  </button>
+
+              </div>
+              <div class="modal-body">
+
+                  <img src="images/background/poster.jpg" style="width: 100%;" alt="">
+
+              </div>
+          </div> <!-- / .modal-content -->
+      </div> <!-- / .modal-dialog -->
+  </div> <!-- / .modal -->
+
+ 
+
+  <!-- MODALS Search
+  ================================================== -->
+  <div class="modal fade" id="modal-search" tabindex="-1" role="dialog" aria-labelledby="modal-video-header" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-dialog-video modal-lg" role="document">
+          <div class="modal-content">
+
+              <!-- Header -->
+              <div class="modal-header">
+
+                  <!-- Title -->
+                  <h4 class="modal-title text-white" id="modal-video-header">
+                      <i class="fas fa-search"></i>  SEARCH
+                  </h4>
+
+                  <!-- Close -->
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                  </button>
+
+              </div>
+              <div class="modal-body">
+
+                  <input type="text" name="search" class="form-control" id="search" placeholder="Type your keyword ...">
+                  <div class="container section pb-0" id="output-search">
+              </div>
+
+          </div>
+      </div> <!-- / .modal-content -->
+  </div> <!-- / .modal-dialog -->
+  </div> <!-- / .modal -->
+
+
+
+  <!-- MODALS SIGNIN
+ ================================================== -->
+  <div class="modal fade" id="modal-signin" tabindex="-1" role="dialog" aria-labelledby="modal-video-header" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-dialog-video modal-lg" role="document">
+          <div class="modal-content">
+
+              <!-- Header -->
+              <div class="modal-header">
+
+                  <!-- Title -->
+                  <h4 class="modal-title text-white" id="modal-video-header">
+                      SIGN IN
+                  </h4>
+
+                  <!-- Close -->
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                  </button>
+
+              </div>
+              <div class="modal-body">
+
+                  <!-- Form -->
+                  <form class="form-styled bg-white" method="post" role="form">
+
+                      <!-- Heading -->
+                      <h4 class="text-center mb-4">
+                          Welcome 
+                      </h4>
+
+                      <!-- Subheading -->
+                      <p class="text-center text-muted mb-5">
+                          Please fill out the form below to sign in to your account.
+                      </p>
+
+                      <!-- Email -->
+                      <div class="form-group">
+
+                          <!-- Email -->
+                          <label>Email address</label>
+                          <div class="input-group">
+                              <input type="email" class="form-control order-1" name="email" id="email">
+                              <div class="input-group-append order-0">
+                                  <div class="input-group-text">
+                                      <svg class="input-group-icon icon-offset icon icon-envelope" viewBox="0 0 106 106" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                          <path transform="translate(3 3)" d="
+                            M0 30 V 10 H 100 V 90 H 0 V 30 L 50 60 L 100 30">
+                                          </path>
+                                      </svg>
+                                  </div>
+                              </div>
+                          </div>
+
+                      </div>
+
+                      <!-- Password -->
+                      <div class="form-group">
+
+                          <!-- Name -->
+                          <label>Password</label>
+                          <div class="input-group">
+                              <input type="password" class="form-control order-1" name="password" id="password">
+                              <div class="input-group-append order-0">
+                                  <div class="input-group-text">
+                                      <svg class="input-group-icon icon-offset icon icon-lock" viewBox="0 0 106 106" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                          <path transform="translate(3 3)" d="
+                            M25 50 V 20 A 25 25 0 0 1 50 0 A 25 25 0 0 1 75 20 V 50 H 90 V 100 H 10 V 50 H 75 M50 85 A 5 5 0 0 1 45 80 V 70 A 5 5 0 0 1 50 65 A 5 5 0 0 1 55 70 V 80 A 5 5 0 0 1 50 85">
+                                          </path>
+                                      </svg>
+                                  </div>
+                              </div>
+                          </div>
+
+                      </div>
+
+                      <!-- Footer -->
+                      <div class="form-row align-items-center">
+                          <div class="col-md-auto">
+
+                              <!-- Checkbox -->
+                              <div class="custom-control custom-checkbox mb-3 mb-md-0">
+                                  <input type="checkbox" class="custom-control-input" id="sign-in-checkbox">
+                                  <label class="custom-control-label" for="sign-in-checkbox">
+                                      Remember me
+                                  </label>
+                              </div>
+
+                          </div>
+                          <div class="col-md">
+
+                              <!-- Button -->
+                              <div class="text-center text-md-right">
+                                  <button type="submit" class="btn btn-primary btn-sm" name="submit" id="submit">
+                                      Sign in now
+                                  </button>
+                              </div>
+
+                          </div>
+                      </div> <!-- / .form-row -->
+                  </form>
+              </div>
+          </div> <!-- / .modal-content -->
+      </div> <!-- / .modal-dialog -->
+  </div> <!-- / .modal -->
+  
+
+  <!-- NAVBAR
+  ================================================= -->
+  <nav class="navbar navbar-expand-xl navbar-dark navbar-togglable fixed-top">
+      <div class="container">
+
+          <!-- Brand -->
+          <a class="navbar-brand" id="logo-nav" href="index.html">
+              <img src="images/logo/logo.png" id="nav-logo" style="width: 120px;" alt="logo">
+          </a>
+
+          <!-- Toggler -->
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <!-- Collapse -->
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+
+              <!-- Links -->
+              <ul class="navbar-nav ml-auto">
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarWelcome" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      About University
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarWelcome">
+              
+                        <a class="dropdown-item " href="about.html">
+                        University today
+                        </a>
+                      
+                        <a class="dropdown-item " href="admin.html">
+                        Administration
+                        </a>
+    
+                        <a class="dropdown-item " href="history.html">
+                        History
+                        </a>
+                      
+                        <a class="dropdown-item " href="Logo.html">
+                        University Logo
+                        </a>
+                      
+                    </div>
+                  </li>
+
+
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarWelcome" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Academics
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarWelcome">
+              
+                        <a class="dropdown-item " href="academics.html">
+                        Education System
+                        </a>
+                      
+                      
+                        <a class="dropdown-item " href="academics-2.html">
+                        Additional Education Programs
+                        </a>
+                      
+                    </div>
+                  </li>
+
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarWelcome" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Admission
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarWelcome">
+              
+                        <a class="dropdown-item " href="admisss.html">
+                          Admission Procedure
+                        </a>
+
+                        <a class="dropdown-item " href="admis-1.html">
+                          Pre-university Training Department
+                            </a>
+                        
+                        <a class="dropdown-item " href="admis-2.html">
+                            Migration regulations
+                        </a>
+        
+
+                           
+                      
+                    </div>
+                  </li>
+
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarWelcome" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      International
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarWelcome">
+              
+                        <a class="dropdown-item " href="inter.html">
+                        International Cooperation
+                        </a>
+                      
+                      
+                        <a class="dropdown-item " href="inter-1.html">
+                        International Relations Department
+                        </a>
+                      
+                    </div>
+                  </li>
+
+
+                  <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarWelcome" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          MORE
+                      </a>
+                      <div class="dropdown-menu" aria-labelledby="navbarWelcome">
+                          <a class="dropdown-item " href="https://english.mirea.ru/contacts/">
+                              CONTACT
+                          </a>
+                          <a class="dropdown-item " href="https://www.mirea.ru/news/" target="blank">
+                              NEWS
+                          </a>
+                      </div>
+                  </li>
+
+                  <li class="nav-item">
+                      <a href="#modal-search" data-toggle="modal" class="btn btn-outline-primary btn-sm nav-link" style="width: 100%; color: #f5ba4b">
+                          <i class="fas fa-search"></i> SEARCH
+                      </a>
+                  </li>
+                  <li class="nav-item">
+                      <a href="#modal-signin" data-toggle="modal" class="nav-link btn btn-sm btn-primary" style="color: #fff;">
+                          SIGN IN <i class="fas fa-sign-in-alt"></i>
+                      </a>
+                  </li>
+              </ul>
+
+          </div> <!-- / .navbar-collapse -->
+
+      </div> <!-- / .container -->
+  </nav>
+
+  <script src="assets/js/header.js"></script>
+
+
+<!-- HERO
+================================================== -->
+<section class="section section-top section-full">
+
+    <!-- Slider -->
+    <div class="bg-slider">
+        <div class="slider slider-no-controls slider-no-draggable slider-fade" id="hero-slider-bg">
+
+            <div class="slider-item">
+                <!-- Cover -->
+                <div class="bg-cover" style="background-image: linear-gradient(90deg, rgba(2,0,36,0.85) 0%, rgba(9,9,121,0.65) 41%, rgba(0,212,255,0.65) 100%),
+                url(images/slider/02.jpg)"></div>
+
+            </div>
+
+            <div class="slider-item">
+                <!-- Cover -->
+                <div class="bg-cover" style="background-image: linear-gradient(90deg, rgba(2,0,36,0.85) 0%, rgba(9,9,121,0.65) 41%, rgba(0,212,255,0.65) 100%),
+                url(images/slider/03.jpg)"></div>
+
+            </div>
+
+            <div class="slider-item">
+                <!-- Cover -->
+                <div class="bg-cover" style="background-image: linear-gradient(90deg, rgba(2,0,36,0.85) 0%, rgba(9,9,121,0.65) 41%, rgba(0,212,255,0.65) 100%),
+                url(images/slider/10.jpg)"></div>
+
+            </div>
+
+            <div class="slider-item">
+                <!-- Cover -->
+                <div class="bg-cover" style="background-image: linear-gradient(90deg, rgba(2,0,36,0.85) 0%, rgba(9,9,121,0.65) 41%, rgba(0,212,255,0.65) 100%),
+                url(images/slider/04.jpg)"></div>
+
+            </div>
+
+            <div class="slider-item">
+                <!-- Cover -->
+                <div class="bg-cover" style="background-image: linear-gradient(90deg, rgba(2,0,36,0.85) 0%, rgba(9,9,121,0.65) 41%, rgba(0,212,255,0.65) 100%),
+                url(images/slider/05.jpg)"></div>
+
+            </div>
+
+            <div class="slider-item">
+                <!-- Cover -->
+                <div class="bg-cover" style="background-image: linear-gradient(90deg, rgba(2,0,36,0.85) 0%, rgba(9,9,121,0.65) 41%, rgba(0,212,255,0.65) 100%),
+                url(images/slider/08.jpg)"></div>
+
+            </div>
+
+            <div class="slider-item">
+                <!-- Cover -->
+                <div class="bg-cover" style="background-image: linear-gradient(90deg, rgba(2,0,36,0.85) 0%, rgba(9,9,121,0.65) 41%, rgba(0,212,255,0.65) 100%),
+                url(images/slider/09.jpg)"></div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Overlay -->
+    <div class="bg-overlay"></div>
+
+    <!-- Triangles -->
+    <div class="bg-triangle bg-triangle-light bg-triangle-bottom bg-triangle-left"></div>
+    <div class="bg-triangle bg-triangle-light bg-triangle-bottom bg-triangle-right"></div>
+
+    <!-- Content -->
+    <div class="container">
+        <div class="row justify-content-center align-items-center">
+            <div class="col-12 col-md-8 col-lg-7 order-md-2">
+
+                <!-- Slider -->
+                <div id="hero-slider" class="slider slider-no-controls slider-no-draggable slider-fade mb-5 mb-md-0" data-bind="slider" data-target="#hero-slider-bg">
+
+                <div class="slider-item">
+
+                    <!-- Heading -->
+                    <h1 class="text-white text-center mb-4" style="font-family: \'Marcellus SC\', serif;">
+                    MIREA - Russian Technological University
+                    </h1>
+
+                    <!-- Subheading -->
+                    <p class="lead text-white text-muted text-center mb-5" style="font-family: \'Rajdhani\', sans-serif;">
+                        has more than 4 000 budget places annually for the most demanded programs of higher and secondary education, more than 3,500 places in dormitories, more than 500 educational programs and more than 45 programs of further education.</p>
+                </div>
+
+                <div class="slider-item">
+
+                    <!-- Heading -->
+                    <h1 class="text-white text-center mb-4" style="font-family: \'Marcellus SC\', serif;">
+                    MIREA - Russian Technological University 
+                    </h1>
+
+                    <!-- Subheading -->
+                    <p class="lead text-white text-muted text-center mb-5" style="font-family: \'Rajdhani\', sans-serif;">
+                        has modern material and technical facilities, comfortable conditions for study and recreation, 7 campuses in Moscow, 2 branches across Russia, 3 modern sports complexes.
+                    </p>
+
+
+                </div>
+                <div class="slider-item">
+
+                    <!-- Heading -->
+                    <h1 class="text-white text-center mb-4" style="font-family: \'Marcellus SC\', serif;">
+                    MIREA - Russian Technological University 
+                    </h1>
+
+                    <!-- Subheading -->
+                    <p class="lead text-white text-muted text-center mb-5" style="font-family: \'Rajdhani\', sans-serif;">
+                        has more than 300 student events every year, 30 student scientific associations, 20 creative teams, 7 sports sections, it is in TOP-10 on the average monthly salary of graduates in Russia.
+                    </p>
+
+
+                </div>
+
+                <div class="slider-item">
+
+                    <!-- Heading -->
+                    <h1 class="text-white text-center mb-4" style="font-family: \'Marcellus SC\', serif;">
+                    MIREA - Russian Technological University 
+                    </h1>
+
+                    <!-- Subheading -->
+                    <p class="lead text-white text-muted text-center mb-5" style="font-family: \'Rajdhani\', sans-serif;">
+                        includes 10 institutes, 160 departments, 38 research divisions, more than 50 main partner enterprises (base departments), more than 300 employers, more than 60 foreign partner universities.
+                    </p>
+
+
+                </div>
+
+                <div class="slider-item">
+
+                    <!-- Heading -->
+                    <h1 class="text-white text-center mb-4" style="font-family: \'Marcellus SC\', serif;">
+                    MIREA - Russian Technological University 
+                    </h1>
+
+                    <!-- Subheading -->
+                    <p class="lead text-white text-muted text-center mb-5" style="font-family: \'Rajdhani\', sans-serif;">
+                        provides training of new level specialists who can design advanced technological complexes, develop, operate digital and analog products, complex distributed information systems, automate and intellectualize production and management processes, create new technologies and materials.
+                    </p>
+
+
+                </div>
+
+                <div class="slider-item">
+
+                    <!-- Heading -->
+                    <h1 class="text-white text-center mb-4" style="font-family: \'Marcellus SC\', serif;">
+                    MIREA - Russian Technological University 
+                    </h1>
+
+                    <!-- Subheading -->
+                    <p class="lead text-white text-muted text-center mb-5" style="font-family: \'Rajdhani\', sans-serif;">
+                        preserves Russian traditions of higher engineering education, the unity of educational and scientific processes in combination with in-depth practical training, introduction of educational innovations and high technology in the educational process, effective interaction with production and scientific organizations.
+                    </p>
+
+
+                </div>
+
+                <div class="slider-item">
+
+                    <!-- Heading -->
+                    <h1 class="text-white text-center mb-4" style="font-family: \'Marcellus SC\', serif;">
+                    MIREA - Russian Technological University 
+                    </h1>
+
+                    <!-- Subheading -->
+                    <p class="lead text-white text-muted text-center mb-5" style="font-family: \'Rajdhani\', sans-serif;">
+                        enrolls foreign citizens from more than 40 countries, more than 500 foreign students get the opportunity to receive a double degree diploma upon graduation from the University, it cooperates with the world’s leading universities in educational and research activities.
+                    </p>
+
+
+                </div>
+
+
+
+                </div>
+
+            </div>
+            <div class="col-6 col-md-2 order-md-1">
+
+                <!-- Controls -->
+                <div class="text-left">
+                    <a href="#hero-slider" class="slider-control" data-slide="previous">
+                        <span class="icon-arrow-left icon-2x"></span>
+                    </a>
+                </div>
+
+            </div>
+            <div class="col-6 col-md-2 order-md-3">
+
+                <!-- Controls -->
+                <div class="text-right">
+                    <a href="#hero-slider" class="slider-control" data-slide="next">
+                        <span class="icon-arrow-right icon-2x"></span>
+                    </a>
+                </div>
+
+            </div>
+            <div class="icon-scroll"></div>
+        </div> <!-- / .row -->
+    </div> <!-- / .container -->
+
+</section>
+
+
+<!-- NEWS
+================================================== -->
+<section class="section bg-light">
+
+
+    <!-- Triangles -->
+    <div class="bg-triangle bg-triangle-dark bg-triangle-top bg-triangle-left"></div>
+    <div class="bg-triangle bg-triangle-dark bg-triangle-bottom bg-triangle-right"></div>
+
+    <!-- Content -->
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-8 col-lg-6">
+
+                <!-- Heading -->
+                <h2 class="mb-4 text-center">
+                    Latest news & events
+                </h2>
+
+                <p class="text-muted text-center mb-5">
+                    All the latest information is always updated.
+                </p>
+
+
+            </div>
+        </div> <!-- / .row -->
+        <div class="row">
+    
+            <div class="col-md-4">
+
+                <!-- Card -->
+                <div class="card border-0 mb-3 mb-md-0">
+
+                  <!-- Image -->
+                    <img src="images/posts/MIREA.jpg" class="card-img-top fix-image" alt="...">
+
+
+                  <!-- Body -->
+                  <div class="card-body">
+
+                    <!-- Time -->
+                    <p class="card-text text-muted">
+                      <i class="far fa-calendar-alt"></i> December 3, 2021
+                    </p>
+
+                    <!-- Title -->
+                    <h4 class="card-title">
+                        RTU MIREA employees received awards of the competition "Golden names of higher education"
+                    </h4>
+
+                    <!-- Link -->
+                    <a href="https://www.mirea.ru/news/sotrudniki-rtu-mirea-poluchili-nagrady-konkursa-zolotye-imena-vysshey-shkoly/" target="blank">
+                      Read more...
+                    </a>
+
+                  </div>
+
+                </div> <!-- / .card -->
+
+              </div>
+
+              <div class="col-md-4">
+
+                <!-- Card -->
+                <div class="card border-0 mb-3 mb-md-0">
+
+                  <!-- Image -->
+                    <img src="images/posts/20211203_114335.webp" class="card-img-top fix-image" alt="..." >
+
+
+                  <!-- Body -->
+                  <div class="card-body">
+
+                    <!-- Time -->
+                    <p class="card-text text-muted">
+                      <i class="far fa-calendar-alt"></i> December 3, 2021
+                    </p>
+
+                    <!-- Title -->
+                    <h4 class="card-title">
+                        A round table on international law was held at the Institute of Management Technologies
+                    </h4>
+
+                    <!-- Link -->
+                    <a href="https://www.mirea.ru/news/v-institute-tekhnologiy-upravleniya-sostoyalsya-kruglyy-stol-na-temu-mezhdunarodnogo-prava/" target="blank">
+                      Read more...
+                    </a>
+
+                  </div>
+
+                </div> <!-- / .card -->
+
+              </div>
+
+              <div class="col-md-4">
+
+                <!-- Card -->
+                <div class="card border-0 mb-3 mb-md-0">
+
+                  <!-- Image -->
+                    <img src="images/posts/RTU07796.webp" class="card-img-top fix-image" alt="...">
+
+
+                  <!-- Body -->
+                  <div class="card-body">
+
+                    <!-- Time -->
+                    <p class="card-text text-muted">
+                      <i class="far fa-calendar-alt"></i> December 3, 2021
+                    </p>
+
+                    <!-- Title -->
+                    <h4 class="card-title">
+                        Documents are being accepted at the military training center of RTU MIREA
+                    </h4>
+
+                    <!-- Link -->
+                    <a href="https://www.mirea.ru/news/v-voennom-uchebnom-tsentre-rtu-mirea-idet-priyem-dokumentov/" target="blank">
+                      Read more...
+                    </a>
+
+                  </div>
+
+                </div> <!-- / .card -->
+
+              </div>
+        </div>
+        <div class="text-center">
+            <a href="https://www.mirea.ru/news/" target="blank" class="btn btn-sm btn-primary">VIEW ALL NEWS</a>
+        </div>
+    </div> <!-- / .container -->
+
+</section>
+
+
+<!-- HEADERS
+================================================== -->
+<section class="section bg-light">
+
+    <!-- Triangles -->
+    <div class="bg-triangle bg-triangle-dark bg-triangle-top bg-triangle-left"></div>
+    <div class="bg-triangle bg-triangle-dark bg-triangle-bottom bg-triangle-right"></div>
+
+    <!-- Content -->
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-8 col-lg-6">
+
+                <!-- Heading -->
+                <h2 class="text-center mb-4">
+                    RTU MIREA today
+                </h2>
+
+                <!-- Subheading -->
+                <p class="text-muted text-center">
+                    Recognized in Russia and abroad modern educational and research center, combining in its work the classical university traditions and modern educational technologies.
+                </p>
+
+            </div>
+        </div> <!-- / .row -->
+
+        <!-- Educational and Scientific Units
+        =============================================-->
+        <div class="heading-content">
+            <div class="title-content">
+                <p>Educational and Scientific Units</p>
+            </div>
+        </div>
+
+        <div class="row">
+
+            <div class="col-6 col-md-4">
+              <div class="card-institute" style="background-image: url(images/Institute/Final/Institute-of-Radio-Engineering-and-Telecommunication-Systems.jpg); background-size: cover;">
+                <div class="card-institute-image">
+                  <img src="images/Institute/Institute-of-Radio-Engineering-and-Telecommunication-Systems.png" alt="">
+                </div>
+                  <div class="text-center">
+                    <a href="https://english.mirea.ru/academics/institutes/institute-of-radio-engineering-and-telecommunication-systems/about-the-institute/" class="text-institute" target="blank">
+                      Institute of Radio Engineering and Telecommunication Systems
+                    </a>
+                  </div>
+                </div>
+            </div>
+    
+            <div class="col-6 col-md-4">
+              <div class="card-institute" style="background-image: url(images/Institute/Final/Institute-of-Integrated-Safety-and-Special-Instrument-Engineering.jpg); background-size: cover;">
+                <div class="card-institute-image">
+                  <img src="images/Institute/Institute-of-Integrated-Safety-and-Special-Instrument-Engineering.png" alt="">
+                </div>
+                  <div class="text-center">
+                    <a href="https://english.mirea.ru/academics/institutes/institute-of-integrated-safety-and-special-instrument-engineering-/about-the-institute/" class="text-institute" target="blank">
+                        Institute for Cybersecurity and Digital Technologies
+                    </a>
+                  </div>
+                </div>
+            </div>
+    
+            <div class="col-6 col-md-4">
+              <div class="card-institute" style="background-image: url(images/Institute/Final/Institute-of-Physics-and-Technology.jpg); background-size: cover;">
+                <div class="card-institute-image">
+                  <img src="images/Institute/Institute-of-Physics-and-Technology.png" alt="">
+                </div>
+                  <div class="text-center">
+                    <a href="https://english.mirea.ru/academics/institutes/institute-of-physics-and-technology/about-the-institute/" class="text-institute" target="blank">
+                        Institute for Advanced Technologies and Industrial Programming
+                    </a>
+                  </div>
+                </div>
+            </div>
+    
+            <div class="col-6 col-md-4">
+              <div class="card-institute" style="background-image: url(images/Institute/Final/Institute-of-Cybernetics.jpg); background-size: cover;">
+                <div class="card-institute-image">
+                  <img src="images/Institute/Institute-of-Cybernetics.png" alt="">
+                </div>
+                  <div class="text-center">
+                    <a href="https://english.mirea.ru/academics/institutes/institute-of-cybernetics/about-the-institute/" class="text-institute" target="blank">
+                        Institute of Artificial Intelligence
+                    </a>
+                  </div>
+                </div>
+            </div>
+    
+            <div class="col-6 col-md-4">
+              <div class="card-institute" style="background-image: url(images/Institute/Final/Lomonosov-Institute-of-Fine-Chemical-Technologies.jpg); background-size: cover;">
+                <div class="card-institute-image">
+                  <img src="images/Institute/Lomonosov-Institute-of-Fine-Chemical-Technologies.png" alt="">
+                </div>
+                  <div class="text-center">
+                    <a href="https://english.mirea.ru/academics/institutes/lomonosov-institute-of-fine-chemical-technologies/about-the-institute/" class="text-institute" target="blank">
+                      Lomonosov Institute of Fine Chemical Technologies
+                    </a>
+                  </div>
+                </div>
+            </div>
+    
+            <div class="col-6 col-md-4">
+              <div class="card-institute" style="background-image: url(images/Institute/Final/Institute-of-Information-Technologies.jpg); background-size: cover;">
+                <div class="card-institute-image">
+                  <img src="images/Institute/Institute-of-Information-Technologies.png" alt="">
+                </div>
+                  <div class="text-center">
+                    <a href="https://english.mirea.ru/academics/institutes/institute-of-information-technologies/about-the-institute/" class="text-institute">
+                      Institute of Information Technologies
+                    </a>
+                  </div>
+                </div>
+            </div>
+    
+        </div>
+
+        <!--------------------------------------------->
+
+        <!-- The most important information
+        =============================================-->
+        <div class="heading-content">
+            <div class="title-content">
+                <p>Mega-Laboratories</p>
+            </div>
+            <div class="btn-readmore">
+                <a href="https://english.mirea.ru/academics/mega-laboratories/"  target="blank" class="btn btn-sm btn-primary">Read more</a>
+            </div>
+        </div>
+
+        <div class="slider slider-hightlight" data-slider-binded=".slider">
+
+            <div class="slider-item col-6 col-md-3">
+                <!-- Card -->
+               <div class="card card-tall card-stretch border-0 mb-3 md-md-0">
+   
+                 <!-- Image -->
+                 <div class="bg-cover" style="background-image: url(images/mega_lab/1.jfif)"></div>
+   
+                 <!-- Overlay -->
+                 <div class="bg-overlay"></div>
+   
+                 <!-- Body -->
+                 <div class="card-body">
+   
+                   <!-- Title -->
+                   <a href="https://english.mirea.ru/academics/mega-laboratories/motion-capture-laboratory/" class="card-title text-white text-center" >
+                    Motion Capture Laboratory
+                   </a>
+   
+   
+                 </div>
+   
+               </div> <!-- / .card -->
+             </div>
+
+             <div class="slider-item col-6 col-md-3">
+                <!-- Card -->
+               <div class="card card-tall card-stretch border-0 mb-3 md-md-0">
+   
+                 <!-- Image -->
+                 <div class="bg-cover" style="background-image: url(images/mega_lab/2.jpg)"></div>
+   
+                 <!-- Overlay -->
+                 <div class="bg-overlay"></div>
+   
+                 <!-- Body -->
+                 <div class="card-body">
+   
+                   <!-- Title -->
+                   <a href="https://english.mirea.ru/academics/mega-laboratories/industry-4-0-digital-robotized-production-center/" class="card-title text-white text-center" >
+                    Industry 4.0: Digital Robotized Production center
+                   </a>
+   
+   
+                 </div>
+   
+               </div> <!-- / .card -->
+             </div>
+
+             <div class="slider-item col-6 col-md-3">
+                <!-- Card -->
+               <div class="card card-tall card-stretch border-0 mb-3 md-md-0">
+   
+                 <!-- Image -->
+                 <div class="bg-cover" style="background-image: url(images/mega_lab/3.jfif)"></div>
+   
+                 <!-- Overlay -->
+                 <div class="bg-overlay"></div>
+   
+                 <!-- Body -->
+                 <div class="card-body">
+   
+                   <!-- Title -->
+                   <a href="https://english.mirea.ru/academics/mega-laboratories/laboratory-of-intelligent-and-autonomous-multi-agent-robotic-systems/" class="card-title text-white text-center" >
+                    Laboratory of Intelligent Autonomous and Multi-Agent Robotic Systems
+                   </a>
+   
+   
+                 </div>
+   
+               </div> <!-- / .card -->
+             </div>
+
+             <div class="slider-item col-6 col-md-3">
+                <!-- Card -->
+               <div class="card card-tall card-stretch border-0 mb-3 md-md-0">
+   
+                 <!-- Image -->
+                 <div class="bg-cover" style="background-image: url(images/mega_lab/4.jpg)"></div>
+   
+                 <!-- Overlay -->
+                 <div class="bg-overlay"></div>
+   
+                 <!-- Body -->
+                 <div class="card-body">
+   
+                   <!-- Title -->
+                   <a href="https://english.mirea.ru/academics/mega-laboratories/laboratory-of-analytic-modeling-design-and-digital-prototyping-technologies/" class="card-title text-white text-center" >
+                    Laboratory of Analytic, Modeling, Design and Digital Prototyping Technologies
+                   </a>
+   
+   
+                 </div>
+   
+               </div> <!-- / .card -->
+             </div>
+
+             <div class="slider-item col-6 col-md-3">
+                <!-- Card -->
+               <div class="card card-tall card-stretch border-0 mb-3 md-md-0">
+   
+                 <!-- Image -->
+                 <div class="bg-cover" style="background-image: url(images/mega_lab/5.jfif)"></div>
+   
+                 <!-- Overlay -->
+                 <div class="bg-overlay"></div>
+   
+                 <!-- Body -->
+                 <div class="card-body">
+   
+                   <!-- Title -->
+                   <a href="https://english.mirea.ru/academics/mega-laboratories/center-of-innovative-technologies-in-microelectronics-/" class="card-title text-white text-center" >
+                    Center of Innovative Technologies in Microelectronics
+                   </a>
+   
+   
+                 </div>
+   
+               </div> <!-- / .card -->
+             </div>
+          
+        </div>
+        
+        
+        
+        <!-- Students Life
+        =============================================-->
+
+        <div class="heading-content">
+            <div class="title-content">
+                <p>Interesting</p>
+            </div>
+        </div>
+
+        <div class="slider slider-hightlight" data-slider-binded=".slider">
+
+            <div class="slider-item col-6 col-md-3">
+                <!-- Card -->
+               <div class="card card-tall card-stretch border-0 mb-3 md-md-0">
+   
+                 <!-- Image -->
+                 <div class="bg-cover" style="background-image: url(images/life/1.jpeg)"></div>
+   
+                 <!-- Overlay -->
+                 <div class="bg-overlay"></div>
+   
+                 <!-- Body -->
+                 <div class="card-body">
+   
+                   <!-- Title -->
+                   <a href="https://dovuz.mirea.ru/" class="card-title text-white text-center" >
+                    Pre-university training
+                   </a>
+   
+   
+                 </div>
+   
+               </div> <!-- / .card -->
+             </div>
+          
+
+        
+
+
+             <div class="slider-item col-6 col-md-3">
+                <!-- Card -->
+               <div class="card card-tall card-stretch border-0 mb-3 md-md-0">
+   
+                 <!-- Image -->
+                 <div class="bg-cover" style="background-image: url(images/life/foto4pr.jpg)"></div>
+   
+                 <!-- Overlay -->
+                 <div class="bg-overlay"></div>
+   
+                 <!-- Body -->
+                 <div class="card-body">
+   
+                   <!-- Title -->
+                   <a href="https://english.mirea.ru/news/rtu-mirea-summed-up-the-results-of-the-student-and-teacher-of-the-year-2020-competition/" class="card-title text-white text-center" >
+                    Student and Teacher of the Year
+                   </a>
+   
+   
+                 </div>
+   
+               </div> <!-- / .card -->
+             </div>
+
+
+            <div class="slider-item col-6 col-md-3">
+                <!-- Card -->
+               <div class="card card-tall card-stretch border-0 mb-3 md-md-0">
+   
+                 <!-- Image -->
+                 <div class="bg-cover" style="background-image: url(images/life/2.jpg)"></div>
+   
+                 <!-- Overlay -->
+                 <div class="bg-overlay"></div>
+   
+                 <!-- Body -->
+                 <div class="card-body">
+   
+                   <!-- Title -->
+                   <a href="https://english.mirea.ru/news/mirea-russian-technological-university-held-a-doors-open-day-for-all-educational-programs/" class="card-title text-white text-center" >
+                   Doors open day
+                   </a>
+   
+   
+                 </div>
+   
+               </div> <!-- / .card -->
+             </div>
+
+
+            <div class="slider-item col-6 col-md-3">
+                <!-- Card -->
+               <div class="card card-tall card-stretch border-0 mb-3 md-md-0">
+   
+                 <!-- Image -->
+                 <div class="bg-cover" style="background-image: url(images/life/3.jpg)"></div>
+   
+                 <!-- Overlay -->
+                 <div class="bg-overlay"></div>
+   
+                 <!-- Body -->
+                 <div class="card-body">
+   
+                   <!-- Title -->
+                   <a href="https://project.mirea.ru/" class="card-title text-white text-center" >
+                    Idea accelerator
+                   </a>
+   
+   
+                 </div>
+   
+               </div> <!-- / .card -->
+             </div>
+         
+
+        </div>
+
+
+        
+    </div> <!-- / .container -->
+
+
+  
+</section>
+<!-- FOOTER
+     ================================================== -->
+     <footer class="section bg-dark" style="background-image: linear-gradient(90deg, rgba(2,0,36,0.45) 0%, rgba(9,9,121,0.45) 41%, rgba(0,212,255,0.45) 100%),
+     url(images/background/footer.jpg); background-size: cover;">
+ 
+       <!-- Triangles -->
+       <div class="bg-triangle bg-triangle-light bg-triangle-bottom bg-triangle-left"></div>
+       <div class="bg-triangle bg-triangle-light bg-triangle-bottom bg-triangle-right"></div>
+ 
+       <!--Content -->
+       <div class="container">
+           <div class="row row-cols-4 align-self-center">
+             <div class="col-md">
+ 
+                 <!-- Brand -->
+                 <p>
+                   <a href="#" class="footer-brand text-white">
+                     <img src="images/logo/logo.png" style="width: 70%;" alt="logo">
+                   </a>
+                 </p>
+                 <p>
+                  <!-- Social links -->
+                 </p><ul class="list-inline list-unstyled text-md-left">
+                   <li class="list-inline-item">
+                     <a class="icon-footer" href="https://vk.com/mirea_official">
+                       <i class="fab fa-vk"></i>
+                     </a>
+                   </li>
+                   <li class="list-inline-item ml-2">
+                     <a class="icon-footer" href="https://www.facebook.com/mireaofficial">
+                       <i class="fab fa-facebook"></i>
+                     </a>
+                   </li>
+                   <li class="list-inline-item ml-2">
+                     <a class="icon-footer" href="http://telegram.me/priem_mirea">
+                       <i class="fab fa-telegram"></i>
+                     </a>
+                   </li>
+                   <li class="list-inline-item ml-2">
+                     <a class="icon-footer" href="https://www.youtube.com/channel/UClVZx_AWcLq8cXViG9NSXAA">
+                       <i class="fab fa-youtube"></i>
+                     </a>
+                   </li>
+                   <li class="list-inline-item ml-2">
+                     <a class="icon-footer" href="https://www.instagram.com/rtu_university_official/?hl=ru">
+                       <i class="fab fa-instagram"></i>
+                     </a>
+                   </li>
+     
+                   <li class="list-inline-item ml-2">
+                     <a class="icon-footer" href="https://twitter.com/mirea_ru">
+                       <i class="fab fa-twitter"></i>
+                     </a>
+                   </li>
+                 </ul>
+     
+                 <p></p>
+                 <p class="text-white">
+                     78 Vernadsky Avenue, Moscow 119454<br>
+                     +7 (499) 215-65-65<br>
+                     rector@mirea.ru
+                 </p>
+     
+     
+               </div>
+ 
+               <div class="col-md">
+                 <!-- Links -->
+                 <ul class="list-unstyled list-inline text-md-left text-footer">
+                   <p>
+                     About University
+                   </p>
+     
+                   <li class="today">
+                     <a href="about.html" class="text-white">
+                     University today
+                     </a>
+                   </li>
+ 
+                 
+                   <li class="admin">
+                     <a href="admin.html" class="text-white">
+                     Administration
+                     </a>
+                   </li>
+                 
+                   <li class="History">
+                     <a href="history.html" class="text-white">
+                     History
+                     </a>
+                 </li>
+                 
+                   <li class="university-logo">
+                     <a href="Logo.html" class="text-white">
+                     University Logo
+                     </a>
+                   </li>
+                             </ul>
+               </div>
+ 
+               <div class="col-md">
+ 
+ 
+                 <!-- Links -->
+                 <ul class="list-unstyled list-inline text-md-left text-footer">
+                   <p>
+                     Academics
+                   </p>
+     
+     
+                   <li class="">
+                     <a href="academics.html" class="text-white">
+                     Education System
+                     </a>
+                   </li>
+                 
+                 
+                   <li class="">
+                     <a href="academics-2.html" class="text-white">
+                     Additional Education Programs
+                     </a>
+                   </li>
+                           </ul>
+     
+               <!-- Links -->
+               <ul class="list-unstyled list-inline text-md-left text-footer">
+                   <p>
+                     Admission
+                   </p>
+     
+     
+                   <li class="">
+                     <a href="admisss.html" class="text-white">
+                      Admission Procedure
+                     </a>
+                   </li>
+
+                   <li class="">
+                    <a href="admis-1.html" class="text-white">
+                      Pre-university Training Department
+                    </a>
+                  </li>
+
+                  <li class="">
+                    <a href="admis-2.html" class="text-white">
+                        Migration regulations
+                    </a>
+                  </li>
+                 </ul>
+     
+               </div>
+ 
+               <div class="col-md">
+ 
+                 <!-- Links -->
+                 <ul class="list-unstyled list-inline text-md-left text-footer">
+                   <p>
+                     International
+                   </p>
+     
+     
+                   <li class="">
+                     <a href="inter.html" class="text-white">
+                     International Cooperation
+                     </a>
+                   </li>
+      
+                   <li class="">
+                     <a href="inter-1.html" class="text-white">
+                     International Relations Department
+                     </a>
+                   </li>
+                           </ul>
+               <ul class="list-unstyled list-inline text-md-left text-footer">
+                   <p>
+                     More
+                   </p>
+                   <li class="">
+                     <a href="https://english.mirea.ru/contacts/" class="text-white">
+                     Contact
+                     </a>
+                   </li>
+                   <li class="">
+                     <a href="https://www.mirea.ru/news/" class="text-white">
+                       News
+                     </a>
+                   </li>
+               </ul>
+     
+               </div>
+ 
+ 
+           </div>
+           <hr class="solid">
+           <p class="copyright">© 2021 MIREA - Russian Technological University | Create by <strong>VIETNAMESE STUDENT</strong> </p>
+       </div> <!-- / .container -->
+   </footer>
+ 
+      <!-- JAVASCRIPT
+    ================================================== -->
+    <!-- Global JS -->
+    <script src="assets/libs/jquery/dist/jquery.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCnKt8_N4-FKOnhI_pSaDL7g_g-XI1-R9E"></script>
+
+    <!-- Plugins JS -->
+    <script src="assets/libs/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/libs/flickity/dist/flickity.pkgd.min.js"></script>
+    <script src="assets/libs/flickity-fade/flickity-fade.js"></script>
+    <script src="assets/libs/jquery-parallax.js/parallax.min.js"></script>
+    <script src="assets/libs/waypoints/lib/jquery.waypoints.min.js"></script>
+    <script src="assets/libs/waypoints/lib/shortcuts/inview.min.js"></script>
+    <script src="assets/libs/fullpage.js/vendors/scrolloverflow.min.js"></script>
+    <script src="assets/libs/fullpage.js/dist/fullpage.min.js"></script>
+    <script src="assets/libs/highlightjs/highlight.pack.min.js"></script>
+
+    <!-- Theme JS -->
+    <script src="assets/js/theme.min.js"></script>
+    <script src="assets/js/index.js"></script>
+
+</body>
+</html>
